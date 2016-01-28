@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18654" started-at="2016-01-21T09:05:48Z" finished-at="2016-01-21T09:06:06Z">
+  <suite name="Suite" duration-ms="53708" started-at="2016-01-28T07:54:24Z" finished-at="2016-01-28T07:55:18Z">
     <groups>
       <group name="currency">
-        <method signature="Scenario_curr.Invalid_curr_test_blnk(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_currency.Scenario_curr@153f5a29]" name="Invalid_curr_test_blnk" class="Scenario_currency.Scenario_curr"/>
+        <method signature="Scenario_del.test_Invalid_editcurr_blnk(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_currency.Scenario_del@153f5a29]" name="test_Invalid_editcurr_blnk" class="Scenario_currency.Scenario_del"/>
+        <method signature="Scenario_del.test_valid_frstcurr_del(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_currency.Scenario_del@153f5a29]" name="test_valid_frstcurr_del" class="Scenario_currency.Scenario_del"/>
+        <method signature="Scenario_del.test_valid_mul_del(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_currency.Scenario_del@153f5a29]" name="test_valid_mul_del" class="Scenario_currency.Scenario_del"/>
       </group> <!-- currency -->
     </groups>
-    <test name="Default test" duration-ms="18654" started-at="2016-01-21T09:05:48Z" finished-at="2016-01-21T09:06:06Z">
-      <class name="Scenario_currency.Scenario_curr">
-        <test-method status="PASS" signature="Invalid_curr_test_blnk(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_currency.Scenario_curr@153f5a29]" name="Invalid_curr_test_blnk" duration-ms="17692" started-at="2016-01-21T14:35:48Z" data-provider="Invalid_curr_test_blnk" finished-at="2016-01-21T14:36:06Z">
+    <test name="Test" duration-ms="53708" started-at="2016-01-28T07:54:24Z" finished-at="2016-01-28T07:55:18Z">
+      <class name="Scenario_currency.Scenario_del">
+        <test-method status="PASS" signature="test_Invalid_editcurr_blnk(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_currency.Scenario_del@153f5a29]" name="test_Invalid_editcurr_blnk" duration-ms="20584" started-at="2016-01-28T13:24:25Z" data-provider="dp_Invaliddel_blnk" finished-at="2016-01-28T13:24:46Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[RW_01]]>
+                <![CDATA[RW_07]]>
               </value>
             </param>
             <param index="1">
@@ -24,19 +26,56 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Currency Name can not be empty.]]>
+                <![CDATA[Please Select Rows to Delete.]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Invalid_curr_test_blnk -->
-      </class> <!-- Scenario_currency.Scenario_curr -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- test_Invalid_editcurr_blnk -->
+        <test-method status="PASS" signature="test_valid_frstcurr_del(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_currency.Scenario_del@153f5a29]" name="test_valid_frstcurr_del" duration-ms="14674" started-at="2016-01-28T13:24:46Z" data-provider="dp_validdel" finished-at="2016-01-28T13:25:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RW_08]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Deleted]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_valid_frstcurr_del -->
+        <test-method status="PASS" signature="test_valid_mul_del(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_currency.Scenario_del@153f5a29]" name="test_valid_mul_del" duration-ms="16374" started-at="2016-01-28T13:25:01Z" data-provider="dp_Valid_mul_del" finished-at="2016-01-28T13:25:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RW_09]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Deleted]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_valid_mul_del -->
+      </class> <!-- Scenario_currency.Scenario_del -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

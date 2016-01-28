@@ -1,47 +1,15 @@
-2016-01-21 12:34:06 INFO  Scenario_del:25 - Executing the testcase RW_07  Order of  1.0
-2016-01-21 12:34:16 INFO  Base_Class:26 - Intialized the browser in Firefox
-2016-01-21 12:34:38 INFO  Scenario_del:59 - Executing the testcase RW_08  Order of  1.0
-2016-01-21 12:34:43 INFO  Base_Class:26 - Intialized the browser in Firefox
-2016-01-21 12:34:58 INFO  Scenario_del:90 - Executing the testcase RW_09  Order of  1.0
-2016-01-21 12:35:03 INFO  Base_Class:26 - Intialized the browser in Firefox
-2016-01-21 12:39:36 INFO  Scenario_del:25 - Executing the testcase RW_07  Order of  1.0
-2016-01-21 12:39:42 INFO  Base_Class:26 - Intialized the browser in Firefox
-2016-01-21 12:39:51 INFO  Scenario_del:39 - Passed as Expected msg was Valid
-2016-01-21 12:39:52 INFO  Base_Class:57 - Closed the Browser
-2016-01-21 12:39:52 INFO  Scenario_del:50 - ******************************************
-2016-01-21 12:39:52 INFO  Scenario_del:59 - Executing the testcase RW_08  Order of  1.0
-2016-01-21 12:39:58 INFO  Base_Class:26 - Intialized the browser in Firefox
-2016-01-21 12:40:10 INFO  Scenario_del:90 - Executing the testcase RW_09  Order of  1.0
-2016-01-21 12:40:19 INFO  Base_Class:26 - Intialized the browser in Firefox
-2016-01-21 12:43:09 INFO  Scenario_del:25 - Executing the testcase RW_07  Order of  1.0
-2016-01-21 12:43:17 INFO  Base_Class:26 - Intialized the browser in Firefox
-2016-01-21 12:43:26 INFO  Scenario_del:39 - Passed as Expected msg was Valid
-2016-01-21 12:43:26 INFO  Base_Class:57 - Closed the Browser
-2016-01-21 12:43:26 INFO  Scenario_del:50 - ******************************************
-2016-01-21 12:43:27 INFO  Scenario_del:59 - Executing the testcase RW_08  Order of  1.0
-2016-01-21 12:43:32 INFO  Base_Class:26 - Intialized the browser in Firefox
-2016-01-21 12:43:40 INFO  Scenario_del:71 - Passed as Expected msg was Valid
-2016-01-21 12:43:41 INFO  Base_Class:57 - Closed the Browser
-2016-01-21 12:43:41 INFO  Scenario_del:80 - ******************************************
-2016-01-21 12:43:41 INFO  Scenario_del:90 - Executing the testcase RW_09  Order of  1.0
-2016-01-21 12:43:46 INFO  Base_Class:26 - Intialized the browser in Firefox
-2016-01-21 12:43:57 INFO  Scenario_del:101 - Passed as Expected msg was Valid
-2016-01-21 12:43:57 INFO  Base_Class:57 - Closed the Browser
-2016-01-21 12:43:57 INFO  Scenario_del:110 - ******************************************
-2016-01-21 14:25:21 INFO  Scenario_curr:72 - Executing the testcase RW_02  Order of  1.0
-2016-01-21 14:25:30 INFO  Base_Class:26 - Intialized the browser in Firefox
-2016-01-21 14:25:39 INFO  Scenario_curr:82 - Passed as Expected msg was Valid
-2016-01-21 14:25:39 INFO  Base_Class:57 - Closed the Browser
-2016-01-21 14:25:39 INFO  Scenario_curr:91 - ******************************************
-2016-01-21 14:25:41 INFO  Scenario_curr:100 - Executing the testcase RW_03  Order of  1.0
-2016-01-21 14:25:46 INFO  Base_Class:26 - Intialized the browser in Firefox
-2016-01-21 14:25:59 INFO  Scenario_curr:110 - Passed as Expected msg was Valid
-2016-01-21 14:26:00 INFO  Base_Class:57 - Closed the Browser
-2016-01-21 14:26:00 INFO  Scenario_curr:119 - ******************************************
-2016-01-21 14:31:01 INFO  Scenario_curr:55 - Executing the testcase RW_02  Order of  1.0
-2016-01-21 14:31:50 INFO  Scenario_curr:55 - Executing the testcase RW_02  Order of  1.0
-2016-01-21 14:35:48 INFO  Scenario_curr:26 - Executing the testcase RW_01  Order of  1.0
-2016-01-21 14:35:56 INFO  Base_Class:26 - Intialized the browser in Firefox
-2016-01-21 14:36:06 INFO  Scenario_curr:37 - Passed as Expected msg was Valid
-2016-01-21 14:36:06 INFO  Base_Class:57 - Closed the Browser
-2016-01-21 14:36:06 INFO  Scenario_curr:46 - ******************************************
+2016-01-28 13:24:25 INFO  Scenario_del:25 - Executing the testcase RW_07  Order of  1.0
+2016-01-28 13:24:36 INFO  Base_Class:26 - Intialized the browser in Firefox
+2016-01-28 13:24:46 INFO  Scenario_del:39 - Passed as Expected msg was Valid
+2016-01-28 13:24:46 INFO  Base_Class:57 - Closed the Browser
+2016-01-28 13:24:46 INFO  Scenario_del:50 - ******************************************
+2016-01-28 13:24:46 INFO  Scenario_del:59 - Executing the testcase RW_08  Order of  1.0
+2016-01-28 13:24:52 INFO  Base_Class:26 - Intialized the browser in Firefox
+2016-01-28 13:25:01 INFO  Scenario_del:71 - Passed as Expected msg was Valid
+2016-01-28 13:25:01 INFO  Base_Class:57 - Closed the Browser
+2016-01-28 13:25:01 INFO  Scenario_del:80 - ******************************************
+2016-01-28 13:25:01 INFO  Scenario_del:90 - Executing the testcase RW_09  Order of  1.0
+2016-01-28 13:25:07 INFO  Base_Class:26 - Intialized the browser in Firefox
+2016-01-28 13:25:17 INFO  Scenario_del:101 - Passed as Expected msg was Valid
+2016-01-28 13:25:18 INFO  Base_Class:57 - Closed the Browser
+2016-01-28 13:25:18 INFO  Scenario_del:110 - ******************************************
