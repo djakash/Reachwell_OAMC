@@ -3,8 +3,8 @@
 <suite name="Suite" parallel="false">
   <test name="Test">
     <classes>
-      <class name="Scenario_currency.Scenario_curr"/>
-       <class name="Scenario_currency.Scenario_edit_curr"/>
+      <!--<class name="Scenario_currency.Scenario_curr"/>
+       <class name="Scenario_currency.Scenario_edit_curr"/>-->
       <class name="Scenario_currency.Scenario_del"/>
     </classes>
   </test> <!-- Test -->
