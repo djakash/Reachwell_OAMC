@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="86.641">
+  <properties />
+  
+  
+            <testcase name="test_Validcriti" time="16.507" classname="Scenario_Employ_desig.Scenario_create" />
+                <testcase name="Invalid_desigcode_test" time="15.671" classname="Scenario_Employ_desig.Scenario_create" />
+                <testcase name="Invalid_designame_test" time="15.910" classname="Scenario_Employ_desig.Scenario_create" />
+                <testcase name="Invalid_desigcode_test_blnk" time="16.019" classname="Scenario_Employ_desig.Scenario_create" />
+                <testcase name="Valid_region_test" time="22.534" classname="Scenario_Employ_desig.Scenario_create" />
+      
+</testsuite>

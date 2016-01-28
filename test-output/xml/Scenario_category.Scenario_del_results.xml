@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="45.997">
+  <properties />
+  
+  
+            <testcase name="test_valid_mul_del" time="17.377" classname="Scenario_category.Scenario_del" />
+                <testcase name="test_Invalid_delflag_blnk" time="14.255" classname="Scenario_category.Scenario_del" />
+                <testcase name="test_valid_frstflag_del" time="14.365" classname="Scenario_category.Scenario_del" />
+      
+</testsuite>

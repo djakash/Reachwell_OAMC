@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="102.140">
+  <properties />
+  
+  
+            <testcase name="Invalid_locatncode_test_blnk" time="19.890" classname="Scenario_branch.Scenario_edit" />
+                <testcase name="Valid_brnch_test" time="22.797" classname="Scenario_branch.Scenario_edit" />
+                <testcase name="Invalid_brnchcode_test_blnk" time="20.115" classname="Scenario_branch.Scenario_edit" />
+                <testcase name="Invalid_same_brnchname_test" time="19.830" classname="Scenario_branch.Scenario_edit" />
+                <testcase name="Invalid_brnchname_test_blnk" time="19.508" classname="Scenario_branch.Scenario_edit" />
+      
+</testsuite>

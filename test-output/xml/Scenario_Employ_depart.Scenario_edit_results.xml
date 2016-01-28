@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="59.266">
+  <properties />
+  
+  
+            <testcase name="Invalid_departname_test" time="16.815" classname="Scenario_Employ_depart.Scenario_edit" />
+                <testcase name="Valid_depart_test" time="24.796" classname="Scenario_Employ_depart.Scenario_edit" />
+                <testcase name="Invalid_departname_test_blnk" time="17.655" classname="Scenario_Employ_depart.Scenario_edit" />
+      
+</testsuite>

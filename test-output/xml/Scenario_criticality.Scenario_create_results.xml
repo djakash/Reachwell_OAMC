@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="46.338">
+  <properties />
+  
+  
+            <testcase name="test_Invalidcriti_blnk" time="14.114" classname="Scenario_criticality.Scenario_create" />
+                <testcase name="test_Validcriti" time="18.492" classname="Scenario_criticality.Scenario_create" />
+                <testcase name="test_Invalidcurr" time="13.732" classname="Scenario_criticality.Scenario_create" />
+      
+</testsuite>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <include name="currency"/>
+        <include name="criticality"/>
+        <include name="invoice"/>
+        <include name="city"/>
+        <include name="state"/>
+        <include name="zone"/>
+        <include name="country"/>
+        <include name="shift"/>
+        <include name="region"/>
+        <include name="flag"/>
+        <include name="category"/>
+        <include name="contractor"/>
+        <include name="branch"/>
+        <include name="employee_list"/>
+        <include name="employ_designation"/>
+        <include name="employ_grade"/>
+        <include name="employ_Department"/>
+        <include name="employ_Certification"/>
+        <include name="employ_Qualification"/>
+        <include name="employ_SkillSet"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Scenario_invoice.Scenario_del">
+        <methods>
+          <include name="test_valid_mul_del"/>
+          <include name="test_valid_frstinvoice_del"/>
+          <include name="test_Invalid_delinvoice_blnk"/>
+        </methods>
+      </class> <!-- Scenario_invoice.Scenario_del -->
+      <class name="Scenario_employee.Scenario_create">
+        <methods>
+          <include name="Invalid_same_loginid_test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Scenario_employee.Scenario_create -->
+      <class name="Scenario_criticality.Scenario_edit">
+        <methods>
+          <include name="test_Invalidcriti_blnk" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Scenario_criticality.Scenario_edit -->
+      <class name="Scenario_Employ_grade.Scenario_create">
+        <methods>
+          <include name="Invalid_designame_test" invocation-numbers="0"/>
+          <include name="Valid_grade_test" invocation-numbers="0"/>
+          <include name="Invalid_gradecode_test" invocation-numbers="0"/>
+          <include name="Invalid_desigcode_test_blnk" invocation-numbers="0"/>
+          <include name="test_Validcriti" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Scenario_Employ_grade.Scenario_create -->
+      <class name="Scenario_branch.Scenario_del">
+        <methods>
+          <include name="test_valid_mul_del" invocation-numbers="0"/>
+          <include name="test_valid_frstcountry_del" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Scenario_branch.Scenario_del -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

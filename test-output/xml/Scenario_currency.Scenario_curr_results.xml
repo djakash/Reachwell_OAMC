@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="32.222">
+  <properties />
+  
+  
+            <testcase name="test_Validcurr" time="15.795" classname="Scenario_currency.Scenario_curr" />
+                <testcase name="test_Invalidcurr" time="16.427" classname="Scenario_currency.Scenario_curr" />
+      
+</testsuite>

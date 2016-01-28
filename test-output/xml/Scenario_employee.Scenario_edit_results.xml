@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="87.206">
+  <properties />
+  
+  
+            <testcase name="Invalid_empcode_test_blnk" time="18.399" classname="Scenario_employee.Scenario_edit" />
+                <testcase name="Valid_brnch_test" time="34.378" classname="Scenario_employee.Scenario_edit" />
+                <testcase name="Invalid_firstname_test_blnk" time="16.292" classname="Scenario_employee.Scenario_edit" />
+                <testcase name="Invalid_login_id_test_blnk" time="18.137" classname="Scenario_employee.Scenario_edit" />
+      
+</testsuite>

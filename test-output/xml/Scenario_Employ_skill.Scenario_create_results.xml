@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="52.056">
+  <properties />
+  
+  
+            <testcase name="test_Validskill" time="20.394" classname="Scenario_Employ_skill.Scenario_create" />
+                <testcase name="test_Invalidskill" time="15.851" classname="Scenario_Employ_skill.Scenario_create" />
+                <testcase name="test_Invalidskill_blnk" time="15.811" classname="Scenario_Employ_skill.Scenario_create" />
+      
+</testsuite>

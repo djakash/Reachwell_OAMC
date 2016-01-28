@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="45.750">
+  <properties />
+  
+  
+            <testcase name="test_Invalideditcurr" time="15.062" classname="Scenario_currency.Scenario_edit_curr" />
+                <testcase name="test_Invalid_editcurr_blnk" time="13.671" classname="Scenario_currency.Scenario_edit_curr" />
+                <testcase name="test_Validedit_curr" time="17.017" classname="Scenario_currency.Scenario_edit_curr" />
+      
+</testsuite>

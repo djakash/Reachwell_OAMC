@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="9"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="192.739">
+  <properties />
+  
+  
+            <testcase name="Invalid_username_test_blnk" time="21.022" classname="Scenario_branch.Scenario_create" />
+                <testcase name="Invalid_brnchname_test_blnk" time="20.173" classname="Scenario_branch.Scenario_create" />
+                <testcase name="Invalid_locatncode_test_blnk" time="20.694" classname="Scenario_branch.Scenario_create" />
+                <testcase name="Invalid_same_username_test" time="21.068" classname="Scenario_branch.Scenario_create" />
+                <testcase name="Invalid_frstname_test_blnk" time="20.601" classname="Scenario_branch.Scenario_create" />
+                <testcase name="Invalid_brnchcode_test_blnk" time="21.317" classname="Scenario_branch.Scenario_create" />
+                <testcase name="Invalid_same_brnchname_test" time="22.135" classname="Scenario_branch.Scenario_create" />
+                <testcase name="Valid_brnch_test" time="25.133" classname="Scenario_branch.Scenario_create" />
+                <testcase name="Invalid_password_test_blnk" time="20.596" classname="Scenario_branch.Scenario_create" />
+      
+</testsuite>

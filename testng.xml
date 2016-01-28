@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  
+    <listeners>
+       <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+       <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+
+   <test name="Test">
+    
+   <groups>
+     <run>
+       
+       <include name="currency"/>
+       <include name="criticality"/>
+       <include name="invoice"/>
+       <include name="city"/>
+       <include name="state"/>
+       <include name="zone"/>
+       <include name="country"/>
+       <include name="shift"/>
+       <include name="region"/>
+       <include name="flag"/>
+       <include name="category"/>
+       <include name="contractor"/>
+       
+       <include name="branch"/>
+       
+       <include name="employee_list"/>
+       <include name="employ_designation"/>
+       <include name="employ_grade"/>
+       <include name="employ_Department"/>
+       <include name="employ_Certification"/>
+       <include name="employ_Qualification"/>
+       <include name="employ_SkillSet"/>
+        
+       <include name="Role"/>
+       <include name="Role_config"/>  
+       
+       <include name="Profile"/>  
+       
+       <include name="loc_list"/>
+       <include name="loc_type"/>
+     </run>
+     </groups>
+    
+    <classes>
+
+<class name="Scenario_currency.Scenario_curr"/>
+<class name="Scenario_currency.Scenario_edit_curr"/>
+<class name="Scenario_currency.Scenario_del"/>
+   
+<class name="Scenario_criticality.Scenario_create"/>
+<class name="Scenario_criticality.Scenario_edit"/>
+<class name="Scenario_criticality.Scenario_del"/>
+      
+<class name="Scenario_invoice.Scenario_create"/>
+<class name="Scenario_invoice.Scenario_edit"/>
+<class name="Scenario_invoice.Scenario_del"/>
+
+<class name="Scenario_city.Scenario_city"/>
+<class name="Scenario_city.Scenario_edit1"/>
+<class name="Scenario_city.Scenario_del"/>
+
+<class name="Scenario_state.Scenario_create"/>
+<class name="Scenario_state.Scenario_edit"/>
+<class name="Scenario_state.Scenario_del"/>
+
+ <class name="Scenario_zone.Scenario_create"/>
+<class name="Scenario_zone.Scenario_edit"/>
+<class name="Scenario_zone.Scenario_del"/>
+
+ <class name="Scenario_country.Scenario_create"/>
+<class name="Scenario_country.Scenario_edit"/>
+<class name="Scenario_country.Scenario_del"/>
+
+ <class name="Scenario_shift.Scenario_create"/>
+<class name="Scenario_shift.Scenario_edit"/>
+<class name="Scenario_shift.Scenario_del"/>
+
+<class name="Scenario_region.Scenario_create"/>
+<class name="Scenario_region.Scenario_edit"/>
+<class name="Scenario_region.Scenario_del"/>
+
+<class name="Scenario_flag.Scenario_create"/>
+<class name="Scenario_flag.Scenario_edit"/>
+<class name="Scenario_flag.Scenario_del"/>
+
+<class name="Scenario_category.Scenario_create"/>
+<class name="Scenario_category.Scenario_edit"/>
+<class name="Scenario_category.Scenario_del"/>
+
+<class name="Scenario_contractor.Scenario_create"/>
+<class name="Scenario_contractor.Scenario_edit"/>
+<class name="Scenario_contractor.Scenario_del"/>
+
+
+<class name="Scenario_branch.Scenario_create"/>
+<class name="Scenario_branch.Scenario_edit"/>
+<class name="Scenario_branch.Scenario_del"/>
+
+
+<class name="Scenario_employee.Scenario_create"/>
+<class name="Scenario_employee.Scenario_edit"/>
+<class name="Scenario_employee.Scenario_del"/>
+
+<class name="Scenario_Employ_desig.Scenario_create"/>
+<class name="Scenario_Employ_desig.Scenario_edit"/>
+<class name="Scenario_Employ_desig.Scenario_del"/>
+
+<class name="Scenario_Employ_grade.Scenario_create"/>
+<class name="Scenario_Employ_grade.Scenario_edit"/>
+<class name="Scenario_Employ_grade.Scenario_del"/>
+
+<class name="Scenario_Employ_depart.Scenario_create"/>
+<class name="Scenario_Employ_depart.Scenario_edit"/>
+<class name="Scenario_Employ_depart.Scenario_del"/>
+
+<class name="Scenario_Employ_certi.Scenario_create"/>
+<class name="Scenario_Employ_certi.Scenario_edit"/>
+<class name="Scenario_Employ_certi.Scenario_del"/>
+
+<class name="Scenario_Employ_qual.Scenario_create"/>
+<class name="Scenario_Employ_qual.Scenario_edit"/>
+<class name="Scenario_Employ_qual.Scenario_del"/>
+
+<class name="Scenario_Employ_skill.Scenario_create"/>
+<class name="Scenario_Employ_skill.Scenario_edit"/>
+<class name="Scenario_Employ_skill.Scenario_del"/>
+
+
+<class name="Scenario_CP_Role.Scenario_create"/>
+<class name="Scenario_CP_Role.Scenario_edit"/>
+<class name="Scenario_CP_Role.Scenario_del"/>
+
+<class name="Scenario_Role_config.Scenario_create"/>
+<class name="Scenario_Role_config.Scenario_edit"/>
+
+
+<class name="Scenario_Profile.Scenario_create"/>
+<class name="Scenario_Profile.Scenario_edit"/>
+<class name="Scenario_Profile.Scenario_del"/>
+
+
+<class name="Scenario_loc_loclist.Scenario_create"/>
+<class name="Scenario_loc_loclist.Scenario_edit"/>
+<class name="Scenario_loc_loclist.Scenario_del"/>
+
+<class name="Scenario_loc_type.Scenario_create"/>
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
