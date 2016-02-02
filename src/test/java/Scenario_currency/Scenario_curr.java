@@ -20,7 +20,7 @@ public class Scenario_curr extends Base_Class {
 	@Test(dataProvider="Invalid_curr_test_blnk",dataProviderClass=Dataprovider_currency.DataProvider_curr.class,groups={"currency"})
 	public void Invalid_curr_test_blnk(String TC_ID,String Order,String curr_name,String Exp_Res) throws IOException
 	{
-System.out.println("2");
+//System.out.println("2");
 		String uname = c1.Reading_Properties("uname");
 		String pwd = c1.Reading_Properties("pwd");
 		log.info("Executing the testcase "+TC_ID+  "  Order of  "+Order);

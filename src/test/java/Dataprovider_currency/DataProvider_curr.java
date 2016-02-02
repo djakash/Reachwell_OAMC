@@ -15,7 +15,7 @@ public class DataProvider_curr {
 	@DataProvider(name="Invalid_curr_test_blnk")
 	public static Iterator<String[]> Invalid_curr_test_blnk() throws IOException
 	{
-		System.out.println("1");
+		//System.out.println("1");
 		List<String[]> Obj = flagRowCount("Invalid_curr_test_blnk");
 		return Obj.iterator();	
 	}
