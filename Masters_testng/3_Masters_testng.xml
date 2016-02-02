@@ -8,7 +8,7 @@
       <class name="Scenario_city.Scenario_edit1"/>
       <class name="Scenario_city.Scenario_del"/>
       
-       <class name="Scenario_criticality.Scenario_create"/>
+      <class name="Scenario_criticality.Scenario_create"/>
       <class name="Scenario_criticality.Scenario_edit"/>
       <class name="Scenario_criticality.Scenario_del"/>
      
