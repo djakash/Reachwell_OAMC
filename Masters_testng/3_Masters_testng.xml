@@ -4,9 +4,9 @@
   <test name="Test">
     <classes>
     
-      <class name="Scenario_city.Scenario_city"/>
-      <class name="Scenario_city.Scenario_edit1"/>
-      <class name="Scenario_city.Scenario_del"/>
+      <class name="Scenario_currency.Scenario_curr"/>
+      <class name="Scenario_currency.Scenario_edit_curr"/>
+      <class name="Scenario_currency.Scenario_del"/>
       
       <class name="Scenario_criticality.Scenario_create"/>
       <class name="Scenario_criticality.Scenario_edit"/>
