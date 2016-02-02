@@ -1,44 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="7" total="24" passed="17">
+<testng-results skipped="0" failed="5" total="9" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="383991" started-at="2016-02-02T10:05:50Z" finished-at="2016-02-02T10:12:14Z">
+  <suite name="Suite" duration-ms="109025" started-at="2016-02-02T10:23:14Z" finished-at="2016-02-02T10:25:03Z">
     <groups>
-      <group name="criticality">
-        <method signature="Scenario_create.test_Invalidcriti_blnk(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_criticality.Scenario_create@48eff760]" name="test_Invalidcriti_blnk" class="Scenario_criticality.Scenario_create"/>
-        <method signature="Scenario_create.test_Invalidcurr(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_criticality.Scenario_create@48eff760]" name="test_Invalidcurr" class="Scenario_criticality.Scenario_create"/>
-        <method signature="Scenario_create.test_Validcriti(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_criticality.Scenario_create@48eff760]" name="test_Validcriti" class="Scenario_criticality.Scenario_create"/>
-        <method signature="Scenario_del.test_Invalid_editcurr_blnk(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_criticality.Scenario_del@3c09711b]" name="test_Invalid_editcurr_blnk" class="Scenario_criticality.Scenario_del"/>
-        <method signature="Scenario_del.test_valid_frstcurr_del(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_criticality.Scenario_del@3c09711b]" name="test_valid_frstcurr_del" class="Scenario_criticality.Scenario_del"/>
-        <method signature="Scenario_del.test_valid_mul_del(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_criticality.Scenario_del@3c09711b]" name="test_valid_mul_del" class="Scenario_criticality.Scenario_del"/>
-        <method signature="Scenario_edit.test_Invalidcriti(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_criticality.Scenario_edit@573f2bb1]" name="test_Invalidcriti" class="Scenario_criticality.Scenario_edit"/>
-        <method signature="Scenario_edit.test_Invalidcriti_blnk(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_criticality.Scenario_edit@573f2bb1]" name="test_Invalidcriti_blnk" class="Scenario_criticality.Scenario_edit"/>
-        <method signature="Scenario_edit.test_Validcriti(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_criticality.Scenario_edit@573f2bb1]" name="test_Validcriti" class="Scenario_criticality.Scenario_edit"/>
-      </group> <!-- criticality -->
-      <group name="currency">
-        <method signature="Scenario_curr.Invalid_curr_test_blnk(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_currency.Scenario_curr@5ae9a829]" name="Invalid_curr_test_blnk" class="Scenario_currency.Scenario_curr"/>
-        <method signature="Scenario_del.test_Invalid_editcurr_blnk(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_currency.Scenario_del@3c756e4d]" name="test_Invalid_editcurr_blnk" class="Scenario_currency.Scenario_del"/>
-        <method signature="Scenario_del.test_valid_frstcurr_del(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_currency.Scenario_del@3c756e4d]" name="test_valid_frstcurr_del" class="Scenario_currency.Scenario_del"/>
-        <method signature="Scenario_del.test_valid_mul_del(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_currency.Scenario_del@3c756e4d]" name="test_valid_mul_del" class="Scenario_currency.Scenario_del"/>
-        <method signature="Scenario_edit_curr.test_Invalid_editcurr_blnk(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_currency.Scenario_edit_curr@548b7f67]" name="test_Invalid_editcurr_blnk" class="Scenario_currency.Scenario_edit_curr"/>
-        <method signature="Scenario_edit_curr.test_Invalideditcurr(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_currency.Scenario_edit_curr@548b7f67]" name="test_Invalideditcurr" class="Scenario_currency.Scenario_edit_curr"/>
-        <method signature="Scenario_edit_curr.test_Validedit_curr(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_currency.Scenario_edit_curr@548b7f67]" name="test_Validedit_curr" class="Scenario_currency.Scenario_edit_curr"/>
-      </group> <!-- currency -->
       <group name="invoice">
-        <method signature="Scenario_create.test_Invalidcriti_blnk(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_create@6d8a00e3]" name="test_Invalidcriti_blnk" class="Scenario_invoice.Scenario_create"/>
-        <method signature="Scenario_create.test_Invalidinvoice(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_create@6d8a00e3]" name="test_Invalidinvoice" class="Scenario_invoice.Scenario_create"/>
-        <method signature="Scenario_create.test_Validcriti(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_create@6d8a00e3]" name="test_Validcriti" class="Scenario_invoice.Scenario_create"/>
-        <method signature="Scenario_del.test_Invalid_delinvoice_blnk(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_del@7c0e2abd]" name="test_Invalid_delinvoice_blnk" class="Scenario_invoice.Scenario_del"/>
-        <method signature="Scenario_del.test_valid_frstinvoice_del(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_del@7c0e2abd]" name="test_valid_frstinvoice_del" class="Scenario_invoice.Scenario_del"/>
-        <method signature="Scenario_del.test_valid_mul_del(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_del@7c0e2abd]" name="test_valid_mul_del" class="Scenario_invoice.Scenario_del"/>
-        <method signature="Scenario_edit.test_Invalidcriti(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_edit@402f32ff]" name="test_Invalidcriti" class="Scenario_invoice.Scenario_edit"/>
-        <method signature="Scenario_edit.test_Invalidcriti_blnk(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_edit@402f32ff]" name="test_Invalidcriti_blnk" class="Scenario_invoice.Scenario_edit"/>
-        <method signature="Scenario_edit.test_Validcriti(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_edit@402f32ff]" name="test_Validcriti" class="Scenario_invoice.Scenario_edit"/>
+        <method signature="Scenario_create.test_Invalidcriti_blnk(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_create@6574b225]" name="test_Invalidcriti_blnk" class="Scenario_invoice.Scenario_create"/>
+        <method signature="Scenario_create.test_Invalidinvoice(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_create@6574b225]" name="test_Invalidinvoice" class="Scenario_invoice.Scenario_create"/>
+        <method signature="Scenario_create.test_Validcriti(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_create@6574b225]" name="test_Validcriti" class="Scenario_invoice.Scenario_create"/>
+        <method signature="Scenario_del.test_Invalid_delinvoice_blnk(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_del@97e1986]" name="test_Invalid_delinvoice_blnk" class="Scenario_invoice.Scenario_del"/>
+        <method signature="Scenario_del.test_valid_frstinvoice_del(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_del@97e1986]" name="test_valid_frstinvoice_del" class="Scenario_invoice.Scenario_del"/>
+        <method signature="Scenario_del.test_valid_mul_del(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_del@97e1986]" name="test_valid_mul_del" class="Scenario_invoice.Scenario_del"/>
+        <method signature="Scenario_edit.test_Invalidcriti(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_edit@2344fc66]" name="test_Invalidcriti" class="Scenario_invoice.Scenario_edit"/>
+        <method signature="Scenario_edit.test_Invalidcriti_blnk(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_edit@2344fc66]" name="test_Invalidcriti_blnk" class="Scenario_invoice.Scenario_edit"/>
+        <method signature="Scenario_edit.test_Validcriti(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_edit@2344fc66]" name="test_Validcriti" class="Scenario_invoice.Scenario_edit"/>
       </group> <!-- invoice -->
     </groups>
-    <test name="Test" duration-ms="383991" started-at="2016-02-02T10:05:50Z" finished-at="2016-02-02T10:12:14Z">
+    <test name="Test" duration-ms="109025" started-at="2016-02-02T10:23:14Z" finished-at="2016-02-02T10:25:03Z">
       <class name="Scenario_invoice.Scenario_create">
-        <test-method status="PASS" signature="test_Invalidcriti_blnk(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_create@6d8a00e3]" name="test_Invalidcriti_blnk" duration-ms="20133" started-at="2016-02-02T15:40:15Z" data-provider="dp_Invalidinvoice_blnk" finished-at="2016-02-02T15:40:35Z">
+        <test-method status="PASS" signature="test_Invalidcriti_blnk(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_create@6574b225]" name="test_Invalidcriti_blnk" duration-ms="20584" started-at="2016-02-02T15:53:15Z" data-provider="dp_Invalidinvoice_blnk" finished-at="2016-02-02T15:53:36Z">
           <params>
             <param index="0">
               <value>
@@ -69,7 +49,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Invalidcriti_blnk -->
-        <test-method status="PASS" signature="test_Invalidinvoice(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_create@6d8a00e3]" name="test_Invalidinvoice" duration-ms="16488" started-at="2016-02-02T15:40:35Z" data-provider="dp_Invalidinvoice" finished-at="2016-02-02T15:40:52Z">
+        <test-method status="PASS" signature="test_Invalidinvoice(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_create@6574b225]" name="test_Invalidinvoice" duration-ms="18992" started-at="2016-02-02T15:53:36Z" data-provider="dp_Invalidinvoice" finished-at="2016-02-02T15:53:55Z">
           <params>
             <param index="0">
               <value>
@@ -100,7 +80,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Invalidinvoice -->
-        <test-method status="PASS" signature="test_Validcriti(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_create@6d8a00e3]" name="test_Validcriti" duration-ms="22387" started-at="2016-02-02T15:40:52Z" data-provider="dp_Validinvoice" finished-at="2016-02-02T15:41:14Z">
+        <test-method status="PASS" signature="test_Validcriti(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_create@6574b225]" name="test_Validcriti" duration-ms="27062" started-at="2016-02-02T15:53:56Z" data-provider="dp_Validinvoice" finished-at="2016-02-02T15:54:23Z">
           <params>
             <param index="0">
               <value>
@@ -133,7 +113,7 @@
         </test-method> <!-- test_Validcriti -->
       </class> <!-- Scenario_invoice.Scenario_create -->
       <class name="Scenario_invoice.Scenario_del">
-        <test-method status="FAIL" signature="test_Invalid_delinvoice_blnk(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_del@7c0e2abd]" name="test_Invalid_delinvoice_blnk" duration-ms="0" started-at="2016-02-02T15:42:13Z" data-provider="dp_Invaliddel_blnk" finished-at="2016-02-02T15:42:13Z">
+        <test-method status="FAIL" signature="test_Invalid_delinvoice_blnk(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_del@97e1986]" name="test_Invalid_delinvoice_blnk" duration-ms="0" started-at="2016-02-02T15:55:03Z" data-provider="dp_Invaliddel_blnk" finished-at="2016-02-02T15:55:03Z">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.lang.NullPointerException]]>
@@ -178,7 +158,7 @@ Caused by: java.lang.NullPointerException
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Invalid_delinvoice_blnk -->
-        <test-method status="FAIL" signature="test_valid_frstinvoice_del(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_del@7c0e2abd]" name="test_valid_frstinvoice_del" duration-ms="0" started-at="2016-02-02T15:42:13Z" data-provider="dp_validdel" finished-at="2016-02-02T15:42:13Z">
+        <test-method status="FAIL" signature="test_valid_frstinvoice_del(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_del@97e1986]" name="test_valid_frstinvoice_del" duration-ms="0" started-at="2016-02-02T15:55:03Z" data-provider="dp_validdel" finished-at="2016-02-02T15:55:03Z">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.lang.NullPointerException]]>
@@ -223,7 +203,7 @@ Caused by: java.lang.NullPointerException
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_valid_frstinvoice_del -->
-        <test-method status="FAIL" signature="test_valid_mul_del(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_del@7c0e2abd]" name="test_valid_mul_del" duration-ms="0" started-at="2016-02-02T15:42:14Z" data-provider="dp_Valid_mul_del" finished-at="2016-02-02T15:42:14Z">
+        <test-method status="FAIL" signature="test_valid_mul_del(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_del@97e1986]" name="test_valid_mul_del" duration-ms="0" started-at="2016-02-02T15:55:03Z" data-provider="dp_Valid_mul_del" finished-at="2016-02-02T15:55:03Z">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.lang.NullPointerException]]>
@@ -270,7 +250,7 @@ Caused by: java.lang.NullPointerException
         </test-method> <!-- test_valid_mul_del -->
       </class> <!-- Scenario_invoice.Scenario_del -->
       <class name="Scenario_invoice.Scenario_edit">
-        <test-method status="PASS" signature="test_Invalidcriti(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_edit@402f32ff]" name="test_Invalidcriti" duration-ms="19258" started-at="2016-02-02T15:41:15Z" data-provider="dp_Invalidcriti" finished-at="2016-02-02T15:41:34Z">
+        <test-method status="FAIL" signature="test_Invalidcriti(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_edit@2344fc66]" name="test_Invalidcriti" duration-ms="10418" started-at="2016-02-02T15:54:23Z" data-provider="dp_Invalidcriti" finished-at="2016-02-02T15:54:34Z">
           <params>
             <param index="0">
               <value>
@@ -298,10 +278,79 @@ Caused by: java.lang.NullPointerException
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
+            <message>
+              <![CDATA[Element cannot be scrolled into view:[object XrayWrapper [object HTMLSpanElement]]
+Command duration or timeout: 30 milliseconds
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'DJ-PC', ip: '192.168.30.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2d83967f-cb5f-4529-9c34-4873b91ad40c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Element cannot be scrolled into view:[object XrayWrapper [object HTMLSpanElement]]
+Command duration or timeout: 30 milliseconds
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'DJ-PC', ip: '192.168.30.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2d83967f-cb5f-4529-9c34-4873b91ad40c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:50)
+	at com.sun.proxy.$Proxy5.click(Unknown Source)
+	at PageObject_invoice.Pageobject_edit.click_invoice(Unknown Source)
+	at PageObject_invoice.Pageobject_edit.Commonprocessinvoice(Unknown Source)
+	at Scenario_invoice.Scenario_edit.test_Invalidcriti(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Element cannot be scrolled into view:[object XrayWrapper [object HTMLSpanElement]]
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'DJ-PC', ip: '192.168.30.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at <anonymous class>.WebElement.clickElement(file:///C:/Users/DJ/AppData/Local/Temp/anonymous2469378168449764249webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11036:7)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/DJ/AppData/Local/Temp/anonymous2469378168449764249webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11635:16)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/DJ/AppData/Local/Temp/anonymous2469378168449764249webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11640:7)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/DJ/AppData/Local/Temp/anonymous2469378168449764249webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11582:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Invalidcriti -->
-        <test-method status="PASS" signature="test_Invalidcriti_blnk(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_edit@402f32ff]" name="test_Invalidcriti_blnk" duration-ms="16442" started-at="2016-02-02T15:41:34Z" data-provider="dp_Invalidcriti_blnk" finished-at="2016-02-02T15:41:50Z">
+        <test-method status="PASS" signature="test_Invalidcriti_blnk(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_edit@2344fc66]" name="test_Invalidcriti_blnk" duration-ms="17894" started-at="2016-02-02T15:54:34Z" data-provider="dp_Invalidcriti_blnk" finished-at="2016-02-02T15:54:52Z">
           <params>
             <param index="0">
               <value>
@@ -332,7 +381,7 @@ Caused by: java.lang.NullPointerException
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Invalidcriti_blnk -->
-        <test-method status="PASS" signature="test_Validcriti(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_edit@402f32ff]" name="test_Validcriti" duration-ms="22559" started-at="2016-02-02T15:41:51Z" data-provider="dp_Validcriti" finished-at="2016-02-02T15:42:13Z">
+        <test-method status="FAIL" signature="test_Validcriti(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_invoice.Scenario_edit@2344fc66]" name="test_Validcriti" duration-ms="10846" started-at="2016-02-02T15:54:52Z" data-provider="dp_Validcriti" finished-at="2016-02-02T15:55:03Z">
           <params>
             <param index="0">
               <value>
@@ -360,481 +409,24 @@ Caused by: java.lang.NullPointerException
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Validcriti -->
-      </class> <!-- Scenario_invoice.Scenario_edit -->
-      <class name="Scenario_criticality.Scenario_del">
-        <test-method status="PASS" signature="test_Invalid_editcurr_blnk(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_criticality.Scenario_del@3c09711b]" name="test_Invalid_editcurr_blnk" duration-ms="13866" started-at="2016-02-02T15:39:41Z" data-provider="dp_Invaliddel_blnk" finished-at="2016-02-02T15:39:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[RW_16]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Please Select Rows to delete]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Invalid_editcurr_blnk -->
-        <test-method status="FAIL" signature="test_valid_mul_del(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_criticality.Scenario_del@3c09711b]" name="test_valid_mul_del" duration-ms="19358" started-at="2016-02-02T15:39:55Z" data-provider="dp_Valid_mul_del" finished-at="2016-02-02T15:40:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[RW_18]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Deleted]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at Scenario_criticality.Scenario_del.test_valid_mul_del(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.TestNG.privateMain(TestNG.java:1364)
-	at org.testng.TestNG.main(TestNG.java:1333)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_valid_mul_del -->
-      </class> <!-- Scenario_criticality.Scenario_del -->
-      <class name="Scenario_currency.Scenario_curr">
-        <test-method status="PASS" signature="Invalid_curr_test_blnk(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_currency.Scenario_curr@5ae9a829]" name="Invalid_curr_test_blnk" duration-ms="17523" started-at="2016-02-02T15:35:51Z" data-provider="Invalid_curr_test_blnk" finished-at="2016-02-02T15:36:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[RW_01]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Currency Name can not be empty.]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Invalid_curr_test_blnk -->
-      </class> <!-- Scenario_currency.Scenario_curr -->
-      <class name="Scenario_criticality.Scenario_create">
-        <test-method status="PASS" signature="test_Invalidcriti_blnk(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_criticality.Scenario_create@48eff760]" name="test_Invalidcriti_blnk" duration-ms="16027" started-at="2016-02-02T15:37:44Z" data-provider="dp_Invalidcriti_blnk" finished-at="2016-02-02T15:38:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[RW_10]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[low criticality]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Criticality can not be empty.]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Invalidcriti_blnk -->
-        <test-method status="FAIL" signature="test_Invalidcurr(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_criticality.Scenario_create@48eff760]" name="test_Invalidcurr" duration-ms="22132" started-at="2016-02-02T15:38:00Z" data-provider="dp_Invalidcriti" finished-at="2016-02-02T15:38:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[RW_11]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[high]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[high criticality]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA['high'  Criticality Name already exists!]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//input[@id='Criticality']"}
-Command duration or timeout: 10.07 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
-System info: host: 'DJ-PC', ip: '192.168.30.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: f393ac98-21af-493d-85f8-3b68f57502e4]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//input[@id='Criticality']"}
-Command duration or timeout: 10.07 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
-System info: host: 'DJ-PC', ip: '192.168.30.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: f393ac98-21af-493d-85f8-3b68f57502e4
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
-	at com.sun.proxy.$Proxy5.sendKeys(Unknown Source)
-	at PageObject_criticality.Pageobject_create.entercritiname(Unknown Source)
-	at PageObject_criticality.Pageobject_create.Commonprocesscriti(Unknown Source)
-	at Scenario_criticality.Scenario_create.test_Invalidcurr(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.TestNG.privateMain(TestNG.java:1364)
-	at org.testng.TestNG.main(TestNG.java:1333)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//input[@id='Criticality']"}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
-System info: host: 'DJ-PC', ip: '192.168.30.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
-Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/DJ/AppData/Local/Temp/anonymous6145818196814513733webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641:133)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/DJ/AppData/Local/Temp/anonymous6145818196814513733webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548:5)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Invalidcurr -->
-        <test-method status="PASS" signature="test_Validcriti(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_criticality.Scenario_create@48eff760]" name="test_Validcriti" duration-ms="28599" started-at="2016-02-02T15:38:22Z" data-provider="dp_Validcriti" finished-at="2016-02-02T15:38:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[RW_12]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[severe1]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[severe criticality]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[severe1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Validcriti -->
-      </class> <!-- Scenario_criticality.Scenario_create -->
-      <class name="Scenario_criticality.Scenario_edit">
-        <test-method status="PASS" signature="test_Invalidcriti(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_criticality.Scenario_edit@573f2bb1]" name="test_Invalidcriti" duration-ms="15610" started-at="2016-02-02T15:38:51Z" data-provider="dp_Invalidcriti" finished-at="2016-02-02T15:39:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[RW_14]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[high]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[high criticality]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA['high'  Criticality Name already exists!]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Invalidcriti -->
-        <test-method status="PASS" signature="test_Invalidcriti_blnk(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_criticality.Scenario_edit@573f2bb1]" name="test_Invalidcriti_blnk" duration-ms="14803" started-at="2016-02-02T15:39:07Z" data-provider="dp_Invalidcriti_blnk" finished-at="2016-02-02T15:39:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[RW_13]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[low criticality]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Criticality can not be empty.]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Invalidcriti_blnk -->
-        <test-method status="PASS" signature="test_Validcriti(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_criticality.Scenario_edit@573f2bb1]" name="test_Validcriti" duration-ms="18787" started-at="2016-02-02T15:39:22Z" data-provider="dp_Validcriti" finished-at="2016-02-02T15:39:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[RW_15]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[severe2]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[low criticality]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[severe2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Validcriti -->
-      </class> <!-- Scenario_criticality.Scenario_edit -->
-      <class name="Scenario_currency.Scenario_del">
-        <test-method status="PASS" signature="test_Invalid_editcurr_blnk(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_currency.Scenario_del@3c756e4d]" name="test_Invalid_editcurr_blnk" duration-ms="15086" started-at="2016-02-02T15:36:57Z" data-provider="dp_Invaliddel_blnk" finished-at="2016-02-02T15:37:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[RW_07]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Please Select Rows to Delete.]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Invalid_editcurr_blnk -->
-        <test-method status="FAIL" signature="test_valid_frstcurr_del(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_currency.Scenario_del@3c756e4d]" name="test_valid_frstcurr_del" duration-ms="15374" started-at="2016-02-02T15:37:12Z" data-provider="dp_validdel" finished-at="2016-02-02T15:37:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[RW_08]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Deleted]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at Scenario_currency.Scenario_del.test_valid_frstcurr_del(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.TestNG.privateMain(TestNG.java:1364)
-	at org.testng.TestNG.main(TestNG.java:1333)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_valid_frstcurr_del -->
-        <test-method status="FAIL" signature="test_valid_mul_del(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_currency.Scenario_del@3c756e4d]" name="test_valid_mul_del" duration-ms="15697" started-at="2016-02-02T15:37:27Z" data-provider="dp_Valid_mul_del" finished-at="2016-02-02T15:37:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[RW_09]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Deleted]]>
-              </value>
-            </param>
-          </params>
           <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
             <message>
-              <![CDATA[Element cannot be scrolled into view:[object XrayWrapper [object HTMLButtonElement]]
-Command duration or timeout: 270 milliseconds
+              <![CDATA[Element cannot be scrolled into view:[object XrayWrapper [object HTMLSpanElement]]
+Command duration or timeout: 60 milliseconds
 Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
 System info: host: 'DJ-PC', ip: '192.168.30.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0353f617-f0fd-43d7-abf4-2e2d2e486a1a]]>
+Session ID: 3741fd0b-96e3-4e17-bb4a-15e93a4811da]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Element cannot be scrolled into view:[object XrayWrapper [object HTMLButtonElement]]
-Command duration or timeout: 270 milliseconds
+              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Element cannot be scrolled into view:[object XrayWrapper [object HTMLSpanElement]]
+Command duration or timeout: 60 milliseconds
 Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
 System info: host: 'DJ-PC', ip: '192.168.30.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0353f617-f0fd-43d7-abf4-2e2d2e486a1a
+Session ID: 3741fd0b-96e3-4e17-bb4a-15e93a4811da
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -849,8 +441,9 @@ Session ID: 0353f617-f0fd-43d7-abf4-2e2d2e486a1a
 	at java.lang.reflect.Method.invoke(Method.java:497)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:50)
 	at com.sun.proxy.$Proxy5.click(Unknown Source)
-	at Pageobject_currency.PageObject_del.getValid_mul_del(Unknown Source)
-	at Scenario_currency.Scenario_del.test_valid_mul_del(Unknown Source)
+	at PageObject_invoice.Pageobject_edit.click_invoice(Unknown Source)
+	at PageObject_invoice.Pageobject_edit.Commonprocessinvoice(Unknown Source)
+	at Scenario_invoice.Scenario_edit.test_Validcriti(Unknown Source)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -874,100 +467,21 @@ Session ID: 0353f617-f0fd-43d7-abf4-2e2d2e486a1a
 	at org.testng.TestNG.run(TestNG.java:1057)
 	at org.testng.TestNG.privateMain(TestNG.java:1364)
 	at org.testng.TestNG.main(TestNG.java:1333)
-Caused by: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Element cannot be scrolled into view:[object XrayWrapper [object HTMLButtonElement]]
+Caused by: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Element cannot be scrolled into view:[object XrayWrapper [object HTMLSpanElement]]
 Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
 System info: host: 'DJ-PC', ip: '192.168.30.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
 Driver info: driver.version: unknown
-	at <anonymous class>.WebElement.clickElement(file:///C:/Users/DJ/AppData/Local/Temp/anonymous2021228630626699704webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11036:7)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/DJ/AppData/Local/Temp/anonymous2021228630626699704webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11635:16)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/DJ/AppData/Local/Temp/anonymous2021228630626699704webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:548:5)
+	at <anonymous class>.WebElement.clickElement(file:///C:/Users/DJ/AppData/Local/Temp/anonymous4252179031492529108webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11036:7)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/DJ/AppData/Local/Temp/anonymous4252179031492529108webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11635:16)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/DJ/AppData/Local/Temp/anonymous4252179031492529108webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11640:7)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/DJ/AppData/Local/Temp/anonymous4252179031492529108webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11582:5)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_valid_mul_del -->
-      </class> <!-- Scenario_currency.Scenario_del -->
-      <class name="Scenario_currency.Scenario_edit_curr">
-        <test-method status="PASS" signature="test_Invalid_editcurr_blnk(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_currency.Scenario_edit_curr@548b7f67]" name="test_Invalid_editcurr_blnk" duration-ms="14608" started-at="2016-02-02T15:36:08Z" data-provider="dp_Invalidcurr_blnk" finished-at="2016-02-02T15:36:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[RW_04]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Currency Name can not be empty.]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Invalid_editcurr_blnk -->
-        <test-method status="PASS" signature="test_Invalideditcurr(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_currency.Scenario_edit_curr@548b7f67]" name="test_Invalideditcurr" duration-ms="14189" started-at="2016-02-02T15:36:23Z" data-provider="dp_Invalidedit" finished-at="2016-02-02T15:36:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[RW_05]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[pound]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA['pound'  Currency Name already exists!]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Invalideditcurr -->
-        <test-method status="PASS" signature="test_Validedit_curr(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_currency.Scenario_edit_curr@548b7f67]" name="test_Validedit_curr" duration-ms="18966" started-at="2016-02-02T15:36:38Z" data-provider="dp_Validedit" finished-at="2016-02-02T15:36:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[RW_06]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[USD4]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[USD4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Validedit_curr -->
-      </class> <!-- Scenario_currency.Scenario_edit_curr -->
+        </test-method> <!-- test_Validcriti -->
+      </class> <!-- Scenario_invoice.Scenario_edit -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
