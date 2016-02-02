@@ -1,0 +1,18 @@
+2016-02-02 17:03:31 INFO  Scenario_create:55 - Executing the testcase RW_23  Order of  1.0
+2016-02-02 17:03:38 INFO  Base_Class:26 - Intialized the browser in Firefox
+2016-02-02 17:04:08 INFO  Scenario_create:26 - Executing the testcase RW_22  Order of  1.0
+2016-02-02 17:04:14 INFO  Base_Class:26 - Intialized the browser in Firefox
+2016-02-02 17:04:37 INFO  Scenario_create:82 - Executing the testcase RW_24  Order of  1.0
+2016-02-02 17:04:44 INFO  Base_Class:26 - Intialized the browser in Firefox
+2016-02-02 17:07:15 INFO  Scenario_create:55 - Executing the testcase RW_23  Order of  1.0
+2016-02-02 17:07:22 INFO  Base_Class:26 - Intialized the browser in Firefox
+2016-02-02 17:07:42 INFO  Scenario_create:65 - Passed as Expected msg was Valid
+2016-02-02 17:07:42 INFO  Base_Class:57 - Closed the Browser
+2016-02-02 17:07:42 INFO  Scenario_create:74 - ******************************************
+2016-02-02 17:07:42 INFO  Scenario_create:26 - Executing the testcase RW_22  Order of  1.0
+2016-02-02 17:07:47 INFO  Base_Class:26 - Intialized the browser in Firefox
+2016-02-02 17:08:04 INFO  Scenario_create:82 - Executing the testcase RW_24  Order of  1.0
+2016-02-02 17:08:10 INFO  Base_Class:26 - Intialized the browser in Firefox
+2016-02-02 17:09:04 INFO  Scenario_create:92 - Passed as Expected msg was Valid
+2016-02-02 17:09:04 INFO  Base_Class:57 - Closed the Browser
+2016-02-02 17:09:04 INFO  Scenario_create:101 - ******************************************

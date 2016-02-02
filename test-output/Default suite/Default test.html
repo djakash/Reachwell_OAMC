@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jan 21 14:35:48 IST 2016</td>
+<td>Started on:</td><td>Tue Feb 02 17:07:14 IST 2016</td>
 </tr>
-<tr><td>Total time:</td><td>18 seconds (18654 ms)</td>
+<tr><td>Total time:</td><td>110 seconds (110001 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,134 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Scenario_invoice.Scenario_edit.Invalid_edit_blnk()'><b>Invalid_edit_blnk</b><br>Test class: Scenario_invoice.Scenario_edit<br>Parameters: RW_22, 1.0, , Advance Payment, Invoice Type Name can not be empty.</td>
+<td><div><pre>org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Element cannot be scrolled into view:[object XrayWrapper [object HTMLSpanElement]]
+Command duration or timeout: 60 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;DJ-PC&apos;, ip: &apos;192.168.30.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cc20a81c-1257-45cd-ac84-7d0a0b22eb34
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:50)
+	at com.sun.proxy.$Proxy5.click(Unknown Source)
+	at PageObject_invoice.Pageobject_edit.click_invoice(Pageobject_edit.java:89)
+	at PageObject_invoice.Pageobject_edit.Commonprocessinvoice(Pageobject_edit.java:150)
+	at Scenario_invoice.Scenario_edit.Invalid_edit_blnk(Scenario_edit.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+Caused by: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Element cannot be scrolled into view:[object XrayWrapper [object HTMLSpanElement]]
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;DJ-PC&apos;, ip: &apos;192.168.30.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.WebElement.clickElement(file:///C:/Users/DJ/AppData/Local/Temp/anonymous1928330398034613409webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11036:7)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/DJ/AppData/Local/Temp/anonymous1928330398034613409webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11635:16)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/DJ/AppData/Local/Temp/anonymous1928330398034613409webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11640:7)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/DJ/AppData/Local/Temp/anonymous1928330398034613409webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11582:5)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1440738283", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1440738283'><pre>org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Element cannot be scrolled into view:[object XrayWrapper [object HTMLSpanElement]]
+Command duration or timeout: 60 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;DJ-PC&apos;, ip: &apos;192.168.30.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cc20a81c-1257-45cd-ac84-7d0a0b22eb34
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:50)
+	at com.sun.proxy.$Proxy5.click(Unknown Source)
+	at PageObject_invoice.Pageobject_edit.click_invoice(Pageobject_edit.java:89)
+	at PageObject_invoice.Pageobject_edit.Commonprocessinvoice(Pageobject_edit.java:150)
+	at Scenario_invoice.Scenario_edit.Invalid_edit_blnk(Scenario_edit.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+Caused by: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Element cannot be scrolled into view:[object XrayWrapper [object HTMLSpanElement]]
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;DJ-PC&apos;, ip: &apos;192.168.30.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.WebElement.clickElement(file:///C:/Users/DJ/AppData/Local/Temp/anonymous1928330398034613409webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11036:7)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/DJ/AppData/Local/Temp/anonymous1928330398034613409webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11635:16)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/DJ/AppData/Local/Temp/anonymous1928330398034613409webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11640:7)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/DJ/AppData/Local/Temp/anonymous1928330398034613409webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11582:5)
+</pre></div></td>
+<td>21</td>
+<td>Scenario_invoice.Scenario_edit@153f5a29</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,10 +203,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Scenario_currency.Scenario_curr.Invalid_curr_test_blnk()'><b>Invalid_curr_test_blnk</b><br>Test class: Scenario_currency.Scenario_curr<br>Parameters: RW_01, 1.0, , Currency Name can not be empty.</td>
+<td title='Scenario_invoice.Scenario_edit.Invalid_edit()'><b>Invalid_edit</b><br>Test class: Scenario_invoice.Scenario_edit<br>Parameters: RW_23, 1.0, Full Payment, Full Payment, 'Full Payment'  Invoice Name already exists!</td>
 <td></td>
-<td>17</td>
-<td>Scenario_currency.Scenario_curr@153f5a29</td></tr>
+<td>26</td>
+<td>Scenario_invoice.Scenario_edit@153f5a29</td></tr>
+<tr>
+<td title='Scenario_invoice.Scenario_edit.Valid_edit()'><b>Valid_edit</b><br>Test class: Scenario_invoice.Scenario_edit<br>Parameters: RW_24, 1.0, Advance Payment, Advance Payment, Advance Payment</td>
+<td></td>
+<td>60</td>
+<td>Scenario_invoice.Scenario_edit@153f5a29</td></tr>
 </table><p>
 </body>
 </html>

@@ -11,16 +11,16 @@ import org.testng.annotations.DataProvider;
 import Generic_component.ExcelReadWrite;
 
 public class DataProvider_del {
-	@DataProvider(name="dp_Invaliddel_blnk")
-	public static Iterator<String[]> Invalidedit_blnkData() throws IOException
+	@DataProvider(name="Invalid_delete_blnk")
+	public static Iterator<String[]> Invalid_delete_blnk() throws IOException
 	{
 		List<String[]> Obj = flagRowcount("Invalid_delete_blnk");
 		return Obj.iterator();
 	}
 	
 	
-	@DataProvider(name="dp_validdel")
-	public static Iterator<String[]> Invalideditdata() throws IOException
+	@DataProvider(name="Valid_firstinvoice_delete")
+	public static Iterator<String[]> Valid_firstinvoice_delete() throws IOException
 	{
 		List<String[]> Obj = flagRowcount("valid_frstinvoice_del");
 		return Obj.iterator();		
@@ -28,8 +28,8 @@ public class DataProvider_del {
 	}
 	
 	
-	@DataProvider(name="dp_Valid_mul_del")
-	public static Iterator<String[]> ValideditData() throws IOException
+	@DataProvider(name="Valid_mul_invoice_del")
+	public static Iterator<String[]> Valid_mul_invoice_del() throws IOException
 	{
 		List<String[]> Obj = flagRowcount("Valid_mul_invoice_del");
 		return Obj.iterator();

@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods, 5 failed,   4 passed</span>
+                    <span class="method-stats">9 methods, 4 failed,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -106,12 +106,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Scenario_invoice.Scenario_edit" hash-for-method="test_Invalidcriti(RW_23, 1.0, Full Payment, Full Payment, &#039;Full Payment&#039;  Invoice Name already exists!)">test_Invalidcriti(RW_23, 1.0, Full Payment, Full Payment, 'Full Payment'  Invoice Name already exists!)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Scenario_invoice.Scenario_edit" hash-for-method="test_Validcriti(RW_24, 1.0, Advance Payment, Advance Payment, Advance Payment)">test_Validcriti(RW_24, 1.0, Advance Payment, Advance Payment, Advance Payment)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Scenario_invoice.Scenario_create" hash-for-method="test_Invalidcriti_blnk(RW_19, 1.0, , Part Payment, Invoice Type Name can not be empty.)">test_Invalidcriti_blnk(RW_19, 1.0, , Part Payment, Invoice Type Name can not be empty.)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -135,7 +130,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Scenario_invoice.Scenario_create" hash-for-method="test_Invalidcriti_blnk(RW_19, 1.0, , Part Payment, Invoice Type Name can not be empty.)">test_Invalidcriti_blnk(RW_19, 1.0, , Part Payment, Invoice Type Name can not be empty.)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Scenario_invoice.Scenario_edit" hash-for-method="test_Invalidcriti(RW_23, 1.0, Full Payment, Full Payment, &#039;Full Payment&#039;  Invoice Name already exists!)">test_Invalidcriti(RW_23, 1.0, Full Payment, Full Payment, 'Full Payment'  Invoice Name already exists!)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -146,6 +141,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Scenario_invoice.Scenario_create" hash-for-method="test_Invalidinvoice(RW_20, 1.0, Full Payment, Full Payment, &#039;Full Payment&#039;  Invoice Type Name already exists!)">test_Invalidinvoice(RW_20, 1.0, Full Payment, Full Payment, 'Full Payment'  Invoice Type Name already exists!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Scenario_invoice.Scenario_edit" hash-for-method="test_Validcriti(RW_24, 1.0, Advance Payment, Advance Payment, Advance Payment)">test_Validcriti(RW_24, 1.0, Advance Payment, Advance Payment, Advance Payment)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -224,22 +224,22 @@ Caused by: java.lang.NullPointerException
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">Scenario_invoice.Scenario_edit</span>
+              <span class="class-name">Scenario_invoice.Scenario_create</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test_Invalidcriti(RW_23, 1.0, Full Payment, Full Payment, &#039;Full Payment&#039;  Invoice Name already exists!)">
-                  </a> <!-- test_Invalidcriti(RW_23, 1.0, Full Payment, Full Payment, 'Full Payment'  Invoice Name already exists!) -->
-                  <span class="method-name">test_Invalidcriti</span>
-                  <span class="parameters">(RW_23, 1.0, Full Payment, Full Payment, 'Full Payment'  Invoice Name already exists!)</span>
+                  <a name="test_Invalidcriti_blnk(RW_19, 1.0, , Part Payment, Invoice Type Name can not be empty.)">
+                  </a> <!-- test_Invalidcriti_blnk(RW_19, 1.0, , Part Payment, Invoice Type Name can not be empty.) -->
+                  <span class="method-name">test_Invalidcriti_blnk</span>
+                  <span class="parameters">(RW_19, 1.0, , Part Payment, Invoice Type Name can not be empty.)</span>
                   <div class="stack-trace">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Element cannot be scrolled into view:[object XrayWrapper [object HTMLSpanElement]]
-Command duration or timeout: 30 milliseconds
+Command duration or timeout: 70 milliseconds
 Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
 System info: host: &apos;DJ-PC&apos;, ip: &apos;192.168.30.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 2d83967f-cb5f-4529-9c34-4873b91ad40c
+Session ID: abb47f2d-5229-4b3d-9844-d77fb8890d6b
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
@@ -247,53 +247,18 @@ Session ID: 2d83967f-cb5f-4529-9c34-4873b91ad40c
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:50)
 	at com.sun.proxy.$Proxy5.click(Unknown Source)
-	at PageObject_invoice.Pageobject_edit.click_invoice(Unknown Source)
-	at PageObject_invoice.Pageobject_edit.Commonprocessinvoice(Unknown Source)
-	at Scenario_invoice.Scenario_edit.test_Invalidcriti(Unknown Source)
+	at PageObject_invoice.Pageobject_create.click_invoice(Unknown Source)
+	at PageObject_invoice.Pageobject_create.Commonprocessinvoice(Unknown Source)
+	at Scenario_invoice.Scenario_create.test_Invalidcriti_blnk(Unknown Source)
 Caused by: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Element cannot be scrolled into view:[object XrayWrapper [object HTMLSpanElement]]
 Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
 System info: host: &apos;DJ-PC&apos;, ip: &apos;192.168.30.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
 Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.WebElement.clickElement(file:///C:/Users/DJ/AppData/Local/Temp/anonymous2469378168449764249webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11036:7)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/DJ/AppData/Local/Temp/anonymous2469378168449764249webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11635:16)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/DJ/AppData/Local/Temp/anonymous2469378168449764249webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11640:7)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/DJ/AppData/Local/Temp/anonymous2469378168449764249webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11582:5)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_Validcriti(RW_24, 1.0, Advance Payment, Advance Payment, Advance Payment)">
-                  </a> <!-- test_Validcriti(RW_24, 1.0, Advance Payment, Advance Payment, Advance Payment) -->
-                  <span class="method-name">test_Validcriti</span>
-                  <span class="parameters">(RW_24, 1.0, Advance Payment, Advance Payment, Advance Payment)</span>
-                  <div class="stack-trace">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Element cannot be scrolled into view:[object XrayWrapper [object HTMLSpanElement]]
-Command duration or timeout: 60 milliseconds
-Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
-System info: host: &apos;DJ-PC&apos;, ip: &apos;192.168.30.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 3741fd0b-96e3-4e17-bb4a-15e93a4811da
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:50)
-	at com.sun.proxy.$Proxy5.click(Unknown Source)
-	at PageObject_invoice.Pageobject_edit.click_invoice(Unknown Source)
-	at PageObject_invoice.Pageobject_edit.Commonprocessinvoice(Unknown Source)
-	at Scenario_invoice.Scenario_edit.test_Validcriti(Unknown Source)
-Caused by: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Element cannot be scrolled into view:[object XrayWrapper [object HTMLSpanElement]]
-Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
-System info: host: &apos;DJ-PC&apos;, ip: &apos;192.168.30.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.WebElement.clickElement(file:///C:/Users/DJ/AppData/Local/Temp/anonymous4252179031492529108webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11036:7)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/DJ/AppData/Local/Temp/anonymous4252179031492529108webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11635:16)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/DJ/AppData/Local/Temp/anonymous4252179031492529108webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11640:7)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/DJ/AppData/Local/Temp/anonymous4252179031492529108webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11582:5)
-... Removed 30 stack frames
+	at &lt;anonymous class&gt;.WebElement.clickElement(file:///C:/Users/DJ/AppData/Local/Temp/anonymous6633282332853814149webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11036:7)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/DJ/AppData/Local/Temp/anonymous6633282332853814149webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11635:16)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/DJ/AppData/Local/Temp/anonymous6633282332853814149webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11640:7)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/DJ/AppData/Local/Temp/anonymous6633282332853814149webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11582:5)
+... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -305,14 +270,6 @@ Driver info: driver.version: unknown
               <span class="class-name">Scenario_invoice.Scenario_create</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_Invalidcriti_blnk(RW_19, 1.0, , Part Payment, Invoice Type Name can not be empty.)">
-                  </a> <!-- test_Invalidcriti_blnk(RW_19, 1.0, , Part Payment, Invoice Type Name can not be empty.) -->
-                  <span class="method-name">test_Invalidcriti_blnk</span>
-                  <span class="parameters">(RW_19, 1.0, , Part Payment, Invoice Type Name can not be empty.)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="test_Invalidinvoice(RW_20, 1.0, Full Payment, Full Payment, &#039;Full Payment&#039;  Invoice Type Name already exists!)">
@@ -339,10 +296,26 @@ Driver info: driver.version: unknown
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="test_Invalidcriti(RW_23, 1.0, Full Payment, Full Payment, &#039;Full Payment&#039;  Invoice Name already exists!)">
+                  </a> <!-- test_Invalidcriti(RW_23, 1.0, Full Payment, Full Payment, 'Full Payment'  Invoice Name already exists!) -->
+                  <span class="method-name">test_Invalidcriti</span>
+                  <span class="parameters">(RW_23, 1.0, Full Payment, Full Payment, 'Full Payment'  Invoice Name already exists!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="test_Invalidcriti_blnk(RW_22, 1.0, , Advance Payment, Invoice Type Name can not be empty.)">
                   </a> <!-- test_Invalidcriti_blnk(RW_22, 1.0, , Advance Payment, Invoice Type Name can not be empty.) -->
                   <span class="method-name">test_Invalidcriti_blnk</span>
                   <span class="parameters">(RW_22, 1.0, , Advance Payment, Invoice Type Name can not be empty.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Validcriti(RW_24, 1.0, Advance Payment, Advance Payment, Advance Payment)">
+                  </a> <!-- test_Validcriti(RW_24, 1.0, Advance Payment, Advance Payment, Advance Payment) -->
+                  <span class="method-name">test_Validcriti</span>
+                  <span class="parameters">(RW_24, 1.0, Advance Payment, Advance Payment, Advance Payment)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -437,37 +410,37 @@ data.addRows(9);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test_Validcriti')
 data.setCell(0, 2, 'Scenario_invoice.Scenario_create')
-data.setCell(0, 3, 27062);
+data.setCell(0, 3, 24158);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test_Invalidcriti_blnk')
-data.setCell(1, 2, 'Scenario_invoice.Scenario_create')
-data.setCell(1, 3, 20584);
+data.setCell(1, 1, 'test_Validcriti')
+data.setCell(1, 2, 'Scenario_invoice.Scenario_edit')
+data.setCell(1, 3, 20337);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'test_Invalidinvoice')
+data.setCell(2, 1, 'test_Invalidcriti_blnk')
 data.setCell(2, 2, 'Scenario_invoice.Scenario_create')
-data.setCell(2, 3, 18992);
+data.setCell(2, 3, 18416);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'test_Invalidcriti_blnk')
-data.setCell(3, 2, 'Scenario_invoice.Scenario_edit')
-data.setCell(3, 3, 17894);
+data.setCell(3, 1, 'test_Invalidinvoice')
+data.setCell(3, 2, 'Scenario_invoice.Scenario_create')
+data.setCell(3, 3, 18346);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'test_Validcriti')
+data.setCell(4, 1, 'test_Invalidcriti')
 data.setCell(4, 2, 'Scenario_invoice.Scenario_edit')
-data.setCell(4, 3, 10846);
+data.setCell(4, 3, 15807);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'test_Invalidcriti')
+data.setCell(5, 1, 'test_Invalidcriti_blnk')
 data.setCell(5, 2, 'Scenario_invoice.Scenario_edit')
-data.setCell(5, 3, 10418);
+data.setCell(5, 3, 13552);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'test_Invalid_delinvoice_blnk')
+data.setCell(6, 1, 'test_valid_frstinvoice_del')
 data.setCell(6, 2, 'Scenario_invoice.Scenario_del')
 data.setCell(6, 3, 0);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'test_valid_frstinvoice_del')
+data.setCell(7, 1, 'test_valid_mul_del')
 data.setCell(7, 2, 'Scenario_invoice.Scenario_del')
 data.setCell(7, 3, 0);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'test_valid_mul_del')
+data.setCell(8, 1, 'test_Invalid_delinvoice_blnk')
 data.setCell(8, 2, 'Scenario_invoice.Scenario_del')
 data.setCell(8, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
@@ -502,35 +475,33 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">Scenario_invoice.Scenario_create</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">test_Invalidcriti_blnk(RW_19, 1.0, , Part Payment, Invoice Type Name can not be empty.)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_Invalidinvoice(RW_20, 1.0, Full Payment, Full Payment, 'Full Payment'  Invoice Type Name already exists!)</span>
-                <span class="method-start">21126 ms</span>
+                <span class="method-start">19343 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_Validcriti(RW_21, 1.0, Part Payment, Part Payment, Part Payment)</span>
-                <span class="method-start">40590 ms</span>
+                <span class="method-start">38061 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Scenario_invoice.Scenario_edit</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">test_Invalidcriti(RW_23, 1.0, Full Payment, Full Payment, 'Full Payment'  Invoice Name already exists!)</span>
-                <span class="method-start">67812 ms</span>
+                <span class="method-start">62369 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_Invalidcriti_blnk(RW_22, 1.0, , Advance Payment, Invoice Type Name can not be empty.)</span>
-                <span class="method-start">78430 ms</span>
+                <span class="method-start">78408 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">test_Validcriti(RW_24, 1.0, Advance Payment, Advance Payment, Advance Payment)</span>
-                <span class="method-start">96536 ms</span>
+                <span class="method-start">92624 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

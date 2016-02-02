@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -36,8 +36,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -47,37 +47,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\DJ\workspace\Reachwell_OAMC\Masters_testng\Currency_testng.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\DJ\AppData\Local\Temp\testng-eclipse--213995096\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
                     <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -90,31 +90,40 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Scenario_invoice.Scenario_edit" hash-for-method="Invalid_edit_blnk(RW_22, 1.0, , Advance Payment, Invoice Type Name can not be empty.)">Invalid_edit_blnk(RW_22, 1.0, , Advance Payment, Invoice Type Name can not be empty.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content passed suite-Suite">
+                    <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Scenario_currency.Scenario_del" hash-for-method="test_Invalid_editcurr_blnk(RW_07, 1.0, Please Select Rows to Delete.)">test_Invalid_editcurr_blnk(RW_07, 1.0, Please Select Rows to Delete.)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Scenario_invoice.Scenario_edit" hash-for-method="Invalid_edit(RW_23, 1.0, Full Payment, Full Payment, &#039;Full Payment&#039;  Invoice Name already exists!)">Invalid_edit(RW_23, 1.0, Full Payment, Full Payment, 'Full Payment'  Invoice Name already exists!)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Scenario_currency.Scenario_del" hash-for-method="test_valid_frstcurr_del(RW_08, 1.0, Deleted)">test_valid_frstcurr_del(RW_08, 1.0, Deleted)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Scenario_invoice.Scenario_edit" hash-for-method="Valid_edit(RW_24, 1.0, Advance Payment, Advance Payment, Advance Payment)">Valid_edit(RW_24, 1.0, Advance Payment, Advance Payment, Advance Payment)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Scenario_currency.Scenario_del" hash-for-method="test_valid_mul_del(RW_09, 1.0, Deleted)">test_valid_mul_del(RW_09, 1.0, Deleted)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
+                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -125,102 +134,169 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Scenario_currency.Scenario_del</span>
+              <img src="failed.png"/>
+              <span class="class-name">Scenario_invoice.Scenario_edit</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test_Invalid_editcurr_blnk(RW_07, 1.0, Please Select Rows to Delete.)">
-                  </a> <!-- test_Invalid_editcurr_blnk(RW_07, 1.0, Please Select Rows to Delete.) -->
-                  <span class="method-name">test_Invalid_editcurr_blnk</span>
-                  <span class="parameters">(RW_07, 1.0, Please Select Rows to Delete.)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_valid_frstcurr_del(RW_08, 1.0, Deleted)">
-                  </a> <!-- test_valid_frstcurr_del(RW_08, 1.0, Deleted) -->
-                  <span class="method-name">test_valid_frstcurr_del</span>
-                  <span class="parameters">(RW_08, 1.0, Deleted)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_valid_mul_del(RW_09, 1.0, Deleted)">
-                  </a> <!-- test_valid_mul_del(RW_09, 1.0, Deleted) -->
-                  <span class="method-name">test_valid_mul_del</span>
-                  <span class="parameters">(RW_09, 1.0, Deleted)</span>
+                  <a name="Invalid_edit_blnk(RW_22, 1.0, , Advance Payment, Invoice Type Name can not be empty.)">
+                  </a> <!-- Invalid_edit_blnk(RW_22, 1.0, , Advance Payment, Invoice Type Name can not be empty.) -->
+                  <span class="method-name">Invalid_edit_blnk</span>
+                  <span class="parameters">(RW_22, 1.0, , Advance Payment, Invoice Type Name can not be empty.)</span>
+                  <div class="stack-trace">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Element cannot be scrolled into view:[object XrayWrapper [object HTMLSpanElement]]
+Command duration or timeout: 60 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;DJ-PC&apos;, ip: &apos;192.168.30.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cc20a81c-1257-45cd-ac84-7d0a0b22eb34
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:50)
+	at com.sun.proxy.$Proxy5.click(Unknown Source)
+	at PageObject_invoice.Pageobject_edit.click_invoice(Pageobject_edit.java:89)
+	at PageObject_invoice.Pageobject_edit.Commonprocessinvoice(Pageobject_edit.java:150)
+	at Scenario_invoice.Scenario_edit.Invalid_edit_blnk(Scenario_edit.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+Caused by: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Element cannot be scrolled into view:[object XrayWrapper [object HTMLSpanElement]]
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;DJ-PC&apos;, ip: &apos;192.168.30.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.WebElement.clickElement(file:///C:/Users/DJ/AppData/Local/Temp/anonymous1928330398034613409webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11036:7)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/DJ/AppData/Local/Temp/anonymous1928330398034613409webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11635:16)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/DJ/AppData/Local/Temp/anonymous1928330398034613409webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11640:7)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/DJ/AppData/Local/Temp/anonymous1928330398034613409webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11582:5)
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-        </div> <!-- panel Suite -->
-        <div panel-name="test-xml-Suite" class="panel">
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Scenario_invoice.Scenario_edit</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Invalid_edit(RW_23, 1.0, Full Payment, Full Payment, &#039;Full Payment&#039;  Invoice Name already exists!)">
+                  </a> <!-- Invalid_edit(RW_23, 1.0, Full Payment, Full Payment, 'Full Payment'  Invoice Name already exists!) -->
+                  <span class="method-name">Invalid_edit</span>
+                  <span class="parameters">(RW_23, 1.0, Full Payment, Full Payment, 'Full Payment'  Invoice Name already exists!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Valid_edit(RW_24, 1.0, Advance Payment, Advance Payment, Advance Payment)">
+                  </a> <!-- Valid_edit(RW_24, 1.0, Advance Payment, Advance Payment, Advance Payment) -->
+                  <span class="method-name">Valid_edit</span>
+                  <span class="parameters">(RW_24, 1.0, Advance Payment, Advance Payment, Advance Payment)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\DJ\workspace\Reachwell_OAMC\Masters_testng\Currency_testng.xml</span>
+            <span class="header-content">C:\Users\DJ\AppData\Local\Temp\testng-eclipse--213995096\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot;&gt;
-  &lt;test name=&quot;Test&quot;&gt;
+&lt;suite name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Scenario_currency.Scenario_del&quot;/&gt;
+      &lt;class name=&quot;Scenario_invoice.Scenario_edit&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
-&lt;/suite&gt; &lt;!-- Suite --&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Suite" class="panel">
+        <div panel-name="testlist-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Suite</span>
+            <span class="header-content">Tests for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Default test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Suite" class="panel">
+        <div panel-name="group-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Suite</span>
+            <span class="header-content">Groups for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">currency</span>
+              <span class="test-group-name">invoice</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">test_Invalid_editcurr_blnk</span>
+                <span class="method-in-group-name">Invalid_edit</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">test_valid_frstcurr_del</span>
+                <span class="method-in-group-name">Invalid_edit_blnk</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">test_valid_mul_del</span>
+                <span class="method-in-group-name">Valid_edit</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Suite" class="panel">
+        <div panel-name="times-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Suite</span>
+            <span class="header-content">Times for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Suite');
-function tableData_Suite() {
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
@@ -228,59 +304,61 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test_Invalid_editcurr_blnk')
-data.setCell(0, 2, 'Scenario_currency.Scenario_del')
-data.setCell(0, 3, 20584);
+data.setCell(0, 1, 'Valid_edit')
+data.setCell(0, 2, 'Scenario_invoice.Scenario_edit')
+data.setCell(0, 3, 60230);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test_valid_mul_del')
-data.setCell(1, 2, 'Scenario_currency.Scenario_del')
-data.setCell(1, 3, 16374);
+data.setCell(1, 1, 'Invalid_edit')
+data.setCell(1, 2, 'Scenario_invoice.Scenario_edit')
+data.setCell(1, 3, 26700);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'test_valid_frstcurr_del')
-data.setCell(2, 2, 'Scenario_currency.Scenario_del')
-data.setCell(2, 3, 14674);
-window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+data.setCell(2, 1, 'Invalid_edit_blnk')
+data.setCell(2, 2, 'Scenario_invoice.Scenario_edit')
+data.setCell(2, 3, 21049);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 51 seconds</span>
-              <div id="times-div-Suite">
-              </div> <!-- times-div-Suite -->
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Suite" class="panel">
+        <div panel-name="reporter-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Suite</span>
+            <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Suite" class="panel">
+        <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Suite" class="panel">
+        <div panel-name="chronological-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Scenario_currency.Scenario_del</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Scenario_invoice.Scenario_edit</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">test_Invalid_editcurr_blnk(RW_07, 1.0, Please Select Rows to Delete.)</span>
+                <span class="method-name">Invalid_edit(RW_23, 1.0, Full Payment, Full Payment, 'Full Payment'  Invoice Name already exists!)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">test_valid_frstcurr_del(RW_08, 1.0, Deleted)</span>
-                <span class="method-start">20934 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Invalid_edit_blnk(RW_22, 1.0, , Advance Payment, Invoice Type Name can not be empty.)</span>
+                <span class="method-start">27124 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">test_valid_mul_del(RW_09, 1.0, Deleted)</span>
-                <span class="method-start">35860 ms</span>
+                <span class="method-name">Valid_edit(RW_24, 1.0, Advance Payment, Advance Payment, Advance Payment)</span>
+                <span class="method-start">48897 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

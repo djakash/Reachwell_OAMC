@@ -11,24 +11,24 @@ import org.testng.annotations.DataProvider;
 import Generic_component.ExcelReadWrite;
 
 public class DataProvider_edit {
-	@DataProvider(name="dp_Invalidcriti_blnk")
-	public static Iterator<String[]> Invalidcriti_blnkdata() throws IOException
+	@DataProvider(name="Invalid_edit_blnk")
+	public static Iterator<String[]> Invalid_edit_blnk() throws IOException
 	{
 		
 		List<String[]> Obj = flagRowCount("Invalid_edit_blnk");
 		return Obj.iterator();	
 	}
 	
-	@DataProvider(name="dp_Invalidcriti")
-	public static Iterator<String[]> Invalidcritidata() throws IOException
+	@DataProvider(name="Invalid_edit")
+	public static Iterator<String[]> Invalid_edit() throws IOException
 	{
 		
 		List<String[]> Obj = flagRowCount("Invalid_edit");
 		return Obj.iterator();	
 	}
 
-	@DataProvider(name="dp_Validcriti")
-	public static Iterator<String[]> Validcritidata() throws IOException
+	@DataProvider(name="Valid_edit")
+	public static Iterator<String[]> Valid_edit() throws IOException
 	{
 		
 		List<String[]> Obj = flagRowCount("Valid_edit");

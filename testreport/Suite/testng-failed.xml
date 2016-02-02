@@ -10,12 +10,11 @@
           <include name="test_Invalid_delinvoice_blnk"/>
         </methods>
       </class> <!-- Scenario_invoice.Scenario_del -->
-      <class name="Scenario_invoice.Scenario_edit">
+      <class name="Scenario_invoice.Scenario_create">
         <methods>
-          <include name="test_Invalidcriti" invocation-numbers="0"/>
-          <include name="test_Validcriti" invocation-numbers="0"/>
+          <include name="test_Invalidcriti_blnk" invocation-numbers="0"/>
         </methods>
-      </class> <!-- Scenario_invoice.Scenario_edit -->
+      </class> <!-- Scenario_invoice.Scenario_create -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

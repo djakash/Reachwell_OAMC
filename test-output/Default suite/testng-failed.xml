@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Scenario_currency.Scenario_del">
+      <class name="Scenario_invoice.Scenario_edit">
         <methods>
-          <include name="test_valid_frstcurr_del" invocation-numbers="0"/>
-          <include name="test_valid_mul_del" invocation-numbers="0"/>
+          <include name="Invalid_edit_blnk" invocation-numbers="0"/>
         </methods>
-      </class> <!-- Scenario_currency.Scenario_del -->
+      </class> <!-- Scenario_invoice.Scenario_edit -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

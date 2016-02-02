@@ -3,11 +3,14 @@ package Pageobject_currency;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class PageObject_curr {
 	
@@ -147,7 +150,10 @@ public class PageObject_curr {
         UNtext.sendKeys(UN);
         PassTf.clear();
         PassTf.sendKeys(PW, Keys.ENTER);
-		Click_CP();
+		WebDriverWait wait=new WebDriverWait(browser,10);
+		WebElement ele = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='Control Panel']")));
+        ele.click();
+        //Click_CP();
 		browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		Click_Masters();
 		browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

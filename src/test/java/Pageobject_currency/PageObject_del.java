@@ -13,82 +13,75 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class PageObject_del {
 	
 	WebDriver browser;
-///////////////for login///////////////////////
-@FindBy(xpath="//input[@id='username']")
-WebElement UNtext;
+	// /////////////for login///////////////////////
+	@FindBy(xpath = "//input[@id='username']")
+	WebElement UNtext;
 
-@FindBy(xpath="//input[@id='password']")
-WebElement PassTf;
-////////////////////////////////////////////////
+	@FindBy(xpath = "//input[@id='password']")
+	WebElement PassTf;
+	// //////////////////////////////////////////////
 
-/////////// Control panel and Masters //////////
-@FindBy(xpath="//span[text()='Control Panel']")
-WebElement controlbutt;
+	// ///////// Control panel and Masters //////////
+	@FindBy(xpath = "//span[text()='Control Panel']")
+	WebElement controlbutt;
 
-@FindBy(xpath="//li[@id='Masters']")
-WebElement MastButt;
+	@FindBy(xpath = "//li[@id='Masters']")
+	WebElement MastButt;
 
-//currency click
-@FindBy(xpath="//span[text()=' Currency']")
-WebElement clk_curr;
-////////////////////////////////////////////////
+	// currency click
+	@FindBy(xpath = "//span[text()=' Currency']")
+	WebElement clk_curr;
+	// //////////////////////////////////////////////
 
+	// main delete button
+	@FindBy(xpath = "//*[@id='CurrencyTableContainer']/div/div[3]/div[2]/span[1]")
+	WebElement click_delete_main;
 
-//main delete button 
-@FindBy(xpath="//*[@id='CurrencyTableContainer']/div/div[3]/div[2]/span[1]")
-WebElement click_delete_main;
-
-
-//blank delete error OK conifirmation
-	@FindBy(xpath="//button[@class='btn btn-primary']")
+	// blank delete error OK conifirmation
+	@FindBy(xpath = "//button[@class='btn btn-primary']")
 	WebElement main_delete_OK;
-	
-	//blank delete error msg text
-    @FindBy(xpath="html/body/ul/li/div/div[1]/span")
-    WebElement blnk_delete_error;
 
+	// blank delete error msg text
+	@FindBy(xpath = "html/body/ul/li/div/div[1]/span")
+	WebElement blnk_delete_error;
 
-	//first row text 
-	@FindBy(xpath="//*[@id='CurrencyTableContainer']/div/table/tbody/tr/td[2]")
+	// first row text
+	@FindBy(xpath = "//*[@id='CurrencyTableContainer']/div/table/tbody/tr/td[2]")
 	WebElement first_row_text;
-	
-	//first check box click
-		@FindBy(xpath="//*[@id='CurrencyTableContainer']/div/table/tbody/tr/td[1]/input")
-		WebElement clk_first_checkbox_curr;
-	
-		//first checkbox delete button
-		@FindBy(xpath="//button[@class='jtable-command-button jtable-delete-command-button']")
-		WebElement frst_chkbox_delete;	
-	
-		//sub delete button OK confirmation
-		@FindBy(xpath="//button[@id='DeleteDialogButton']")
-		WebElement subdelete_OK;
-		
-public PageObject_del(WebDriver Dbrowser)
-{
-this.browser=Dbrowser;
-PageFactory.initElements(browser, this);
-}
 
-public void Click_CP()
-{
-controlbutt.click();
+	// first check box click
+	@FindBy(xpath = "//*[@id='CurrencyTableContainer']/div/table/tbody/tr/td[1]/input")
+	WebElement clk_first_checkbox_curr;
 
-}
+	// first checkbox delete button
+	@FindBy(xpath = "//button[@class='jtable-command-button jtable-delete-command-button']")
+	WebElement frst_chkbox_delete;
 
-// method to click Masters
-public void Click_Masters()
-{
-MastButt.click();
+	// sub delete button OK confirmation
+	@FindBy(xpath = "//button[@id='DeleteDialogButton']")
+	WebElement subdelete_OK;
 
-}
+	public PageObject_del(WebDriver Dbrowser) {
+		this.browser = Dbrowser;
+		PageFactory.initElements(browser, this);
+	}
 
-// method to click Currency
-public void click_curr()
-{
-clk_curr.click();
+	public void Click_CP() {
+		controlbutt.click();
 
-}
+	}
+
+	// method to click Masters
+	public void Click_Masters() {
+		MastButt.click();
+
+	}
+
+	// method to click Currency
+	public void click_curr() {
+		clk_curr.click();
+
+	}
 
 
 //////////////////////////////////////////////////////////////////
@@ -170,16 +163,18 @@ public String getValid_mul_del()
 
 public void Commonprocess_edit1(String UN,String PW)
 {
-	UNtext.clear();
-  UNtext.sendKeys(UN);
-  PassTf.clear();
-  PassTf.sendKeys(PW, Keys.ENTER);
-	Click_CP();
-	browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	Click_Masters();
-	browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	click_curr();
-	
-	
+		UNtext.clear();
+		UNtext.sendKeys(UN);
+		PassTf.clear();
+		PassTf.sendKeys(PW, Keys.ENTER);
+		WebDriverWait wait=new WebDriverWait(browser,10);
+		WebElement ele = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='Control Panel']")));
+        ele.click();
+		//Click_CP();
+		browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		Click_Masters();
+		browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		click_curr();
+
 }
 }

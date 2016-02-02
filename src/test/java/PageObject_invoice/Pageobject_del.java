@@ -14,77 +14,75 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class Pageobject_del {
 	
 	WebDriver browser;
-	//*************************************************
-		//Strorage for Elements
-		///////////////for login///////////////////////
-		@FindBy(xpath="//input[@id='username']")
-		 WebElement UNtext;
-	    
-	    @FindBy(xpath="//input[@id='password']")
-	    WebElement PassTf;
+	// *************************************************
+	// Strorage for Elements
+	// /////////////for login///////////////////////
+	@FindBy(xpath = "//input[@id='username']")
+	WebElement UNtext;
+
+	@FindBy(xpath = "//input[@id='password']")
+	WebElement PassTf;
+	// //////////////////////////////////////////////
+
+	// ///////// Control panel and Masters //////////
+	@FindBy(xpath = "//span[text()='Control Panel']")
+	WebElement controlbutt;
+	@FindBy(xpath = "//li[@id='Masters']")
+	WebElement MastButt;
+
+	// invoice click
+	@FindBy(xpath = "//span[text()=' Invoice Type']")
+	WebElement clk_invoice;
 		////////////////////////////////////////////////
-	    
-	    /////////// Control panel and Masters //////////
-	    @FindBy(xpath="//span[text()='Control Panel']")
-	    WebElement controlbutt;
-		@FindBy(xpath="//li[@id='Masters']")
-		 WebElement MastButt;
-		
-		//invoice click
-	    @FindBy(xpath="//span[text()=' Invoice Type']")
-	    WebElement clk_invoice;
-		////////////////////////////////////////////////
 
 
-	  //main delete button 
-	    @FindBy(xpath="//*[@id='InvoiceTypeTableContainer']/div/div[3]/div[2]/span[1]/span[2]")
-	    WebElement click_delete_main;
+	// main delete button
+	@FindBy(xpath = "//*[@id='InvoiceTypeTableContainer']/div/div[3]/div[2]/span[1]/span[2]")
+	WebElement click_delete_main;
 
+	// blank delete error OK conifirmation
+	@FindBy(xpath = "//button[@class='btn btn-primary']")
+	WebElement main_delete_OK;
 
-	    //blank delete error OK conifirmation
-	    	@FindBy(xpath="//button[@class='btn btn-primary']")
-	    	WebElement main_delete_OK;
-	    	
-	    	//blank delete error msg text
-	        @FindBy(xpath="html/body/ul/li/div/div[1]/span")
-	        WebElement blnk_delete_error;
+	// blank delete error msg text
+	@FindBy(xpath = "html/body/ul/li/div/div[1]/span")
+	WebElement blnk_delete_error;
 
+	// first row text
+	@FindBy(xpath = "//*[@id='InvoiceTypeTableContainer']/div/table/tbody/tr[1]/td[2]")
+	WebElement first_row_text;
 
-	    	//first row text 
-	    	@FindBy(xpath="//*[@id='InvoiceTypeTableContainer']/div/table/tbody/tr[1]/td[2]")
-	    	WebElement first_row_text;
-	    	
-	    	//first check box click
-	    		@FindBy(xpath="//*[@id='InvoiceTypeTableContainer']/div/table/tbody/tr[1]/td[1]/input")
-	    		WebElement clk_first_checkbox_curr;
-	    	
-	    		//first checkbox delete button
-	    		@FindBy(xpath="//*[@id='InvoiceTypeTableContainer']/div/table/tbody/tr[1]/td[6]/button")
-	    		WebElement frst_chkbox_delete;	
-	    	
-	    		//sub delete button OK confirmation
-	    		@FindBy(xpath="//button[@id='DeleteDialogButton']")
-	    		WebElement subdelete_OK;
+	// first check box click
+	@FindBy(xpath = "//*[@id='InvoiceTypeTableContainer']/div/table/tbody/tr[1]/td[1]/input")
+	WebElement clk_first_checkbox_curr;
+
+	// first checkbox delete button
+	@FindBy(xpath = "//*[@id='InvoiceTypeTableContainer']/div/table/tbody/tr[1]/td[6]/button")
+	WebElement frst_chkbox_delete;
+
+	// sub delete button OK confirmation
+	@FindBy(xpath = "//button[@id='DeleteDialogButton']")
+	WebElement subdelete_OK;
 	    		
 	    		
-public Pageobject_del(WebDriver Dbrowser)
-{
-this.browser=Dbrowser;
-PageFactory.initElements(browser, this);
-}
+	public Pageobject_del(WebDriver Dbrowser) 
+	{
+		this.browser = Dbrowser;
+		PageFactory.initElements(browser, this);
+	}
 
-public void Click_CP()
-{
-controlbutt.click();
+	public void Click_CP()
+	{
+		controlbutt.click();
 
-}
+	}
 
-//method to click Masters
-public void Click_Masters()
-{
-MastButt.click();
+	// method to click Masters
+	public void Click_Masters() 
+	{
+		MastButt.click();
 
-}
+	}
 
 
 //method to click invoice
@@ -98,25 +96,26 @@ MastButt.click();
 
 
 
-	public String getInvalidinvoiceResult_blnk()
+	public String Invalid_delete_blnk() 
 	{
 		click_delete_main.click();
-		
-		//click delete button
-				WebElement element = browser.findElement(By.xpath("html/body/ul/li/div/div[2]/button"));
-				WebDriverWait wait = new WebDriverWait(browser, 10); //here, wait time is 02 seconds
 
-				//wait for delete pop_up message
-				wait.until(ExpectedConditions.visibilityOf(element)); //this will wait for elememt to be visible for 02 seconds
-				 String text = blnk_delete_error.getText();
-				browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-				 element.click();
-				 browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			main_delete_OK.click();
-			return text;
+		// click delete button
+		WebElement element = browser.findElement(By
+				.xpath("html/body/ul/li/div/div[2]/button"));
+		WebDriverWait wait = new WebDriverWait(browser, 10); // here, wait time is 02 seconds
+
+		// wait for delete pop_up message
+		wait.until(ExpectedConditions.visibilityOf(element)); // this will wait for elememt to be visible for 02 seconds
+		String text = blnk_delete_error.getText();
+		browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		element.click();
+		browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		main_delete_OK.click();
+		return text;
 	}
 
-	public String firstinvoice_delete() throws InterruptedException
+	public String Valid_firstinvoice_delete() throws InterruptedException
 	{
 		String Actual_reslt = null;//=null;
 		String initial_value = first_row_text.getText();
@@ -137,41 +136,42 @@ MastButt.click();
 
 
 
-	public String getValid_mul_del()
-	{
+	public String Valid_mul_invoice_del() {
 		String Actual_reslt = null;
 		String initial_value = first_row_text.getText();
-		//clk_first_checkbox_curr.click();
-		//frst_chkbox_delete.click();
-		//browser.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-		
-		for(int j=1;j<=2;j++)
-		{	
-			browser.findElement(By.xpath("//*[@id='InvoiceTypeTableContainer']/div/table/tbody/tr["+j+"]/td[1]/input")).click();
-			//browser.manage().timeouts().implicitlyWait(05, TimeUnit.SECONDS);
-		}
-		
-		click_delete_main.click();
-		
-		//click delete button
-		WebElement element = browser.findElement(By.xpath("//button[@class='btn btn-primary']"));
-		WebDriverWait wait = new WebDriverWait(browser, 10); //here, wait time is 02 seconds
+		// clk_first_checkbox_curr.click();
+		// frst_chkbox_delete.click();
+		// browser.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
-		//wait for delete pop_up message
+		for (int j = 1; j <= 2; j++)
+		{
+			browser.findElement(
+					By.xpath("//*[@id='InvoiceTypeTableContainer']/div/table/tbody/tr["
+							+ j + "]/td[1]/input")).click();
+		}
+
+		click_delete_main.click();
+
+		// click delete button
+		WebElement element = browser.findElement(By
+				.xpath("//button[@class='btn btn-primary']"));
+		WebDriverWait wait = new WebDriverWait(browser, 10); // here, wait time
+																// is 02 seconds
+
+		// wait for delete pop_up message
 		wait.until(ExpectedConditions.visibilityOf(element));
-		
+
 		element.click();
 		browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		browser.navigate().refresh();
 		browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		 String after_del_value = first_row_text.getText();
-			if(!(after_del_value.equals(initial_value)))
-				Actual_reslt="Deleted";
-			//Thread.sleep(3000);
-			return Actual_reslt;
-		
-		/*res="Deleted";
-		return res;*/
+		String after_del_value = first_row_text.getText();
+		if (!(after_del_value.equals(initial_value)))
+			Actual_reslt = "Deleted";
+		// Thread.sleep(3000);
+		return Actual_reslt;
+
+	
 	}
 
 
@@ -179,9 +179,9 @@ MastButt.click();
 	public void Commonprocess_invoice(String UN,String PW)
 	{
 		UNtext.clear();
-	  UNtext.sendKeys(UN);
-	  PassTf.clear();
-	  PassTf.sendKeys(PW, Keys.ENTER);
+		UNtext.sendKeys(UN);
+		PassTf.clear();
+		PassTf.sendKeys(PW, Keys.ENTER);
 		Click_CP();
 		browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		Click_Masters();

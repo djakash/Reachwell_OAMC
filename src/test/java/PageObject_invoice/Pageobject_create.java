@@ -126,20 +126,20 @@ public class Pageobject_create {
 	}
 	
 	//method for blank invoice name
-	public String getInvalidcritiResult_blnk()
+	public String Invalid_invoice_test_blnk()
 	{
 		return msg_Invalid_result_blank.getText();
 	}
 
 	
 	//method for error text with same invoice name
-		public String getInvalidcritiResult()
+		public String Invalid_invoice_test()
 		{
 			return msg_Invalid_result.getText();
 		}
 	
 	//method new invoice name entered
-	public String getvalidcritiResult()
+	public String Valid_invoice_test()
 	{
 		browser.navigate().refresh();
 		return msg_Valid_result.getText();
