@@ -5,16 +5,11 @@
     <classes>
       <class name="Scenario_invoice.Scenario_del">
         <methods>
-          <include name="test_valid_mul_del"/>
-          <include name="test_valid_frstinvoice_del"/>
-          <include name="test_Invalid_delinvoice_blnk"/>
+          <include name="Valid_mul_invoice_del"/>
+          <include name="Valid_firstinvoice_delete"/>
+          <include name="Invalid_delete_blnk"/>
         </methods>
       </class> <!-- Scenario_invoice.Scenario_del -->
-      <class name="Scenario_invoice.Scenario_create">
-        <methods>
-          <include name="test_Invalidcriti_blnk" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- Scenario_invoice.Scenario_create -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

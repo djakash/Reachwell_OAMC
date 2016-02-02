@@ -102,7 +102,7 @@ public class PageObject_edit {
 		public void click_save()
 		{
 			click_save_curr.click();
-			browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			browser.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		}
 	
 		public String getValidedit()
@@ -128,20 +128,21 @@ public class PageObject_edit {
 		{
 			UNtext.clear();
 	        UNtext.sendKeys(UN);
+	        browser.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	        PassTf.clear();
 	        PassTf.sendKeys(PW, Keys.ENTER);
-	        WebDriverWait wait=new WebDriverWait(browser,10);
-			WebElement ele = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='Control Panel']")));
-	        ele.click();
-	        //Click_CP();
-			browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	        Click_CP();
+			browser.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			Click_Masters();
-			browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			browser.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			click_curr();
-			browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			clk_edit_curr();
+			//browser.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+			 WebDriverWait wait=new WebDriverWait(browser,20);
+		     WebElement ele = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='CurrencyTableContainer']/div/table/tbody/tr[1]/td[5]/a/div")));
+		     ele.click();
+			//clk_edit_curr();
 			entercurrname(curr_name);
-			browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			browser.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			click_save();	
 			
 		}

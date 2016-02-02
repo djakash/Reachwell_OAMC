@@ -94,15 +94,15 @@ public String getInvalidcurrResult_blnk()
 	
 	//click delete button
 		WebElement element = browser.findElement(By.xpath("html/body/ul/li/div/div[2]/button"));
-		WebDriverWait wait = new WebDriverWait(browser, 10); //here, wait time is 02 seconds
+		WebDriverWait wait = new WebDriverWait(browser, 20); //here, wait time is 02 seconds
 
 	//wait for delete pop_up message
 		wait.until(ExpectedConditions.visibilityOf(element)); //this will wait for elememt to be visible for 02 seconds
 		String text = blnk_delete_error.getText();
-		browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		browser.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		element.click();
 
-    browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    browser.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	main_delete_OK.click();
 	return text;
 	
@@ -118,7 +118,7 @@ public String firstcurr_delete() throws InterruptedException
 	subdelete_OK.click();
 	browser.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 	browser.navigate().refresh();
-	browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	browser.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
     String after_del_value = first_row_text.getText();
 	if(!(after_del_value.equals(initial_value)))
 		Actual_reslt="Deleted";
@@ -148,7 +148,7 @@ public String getValid_mul_del()
 	main_delete_OK.click();
 	browser.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	browser.navigate().refresh();
-	browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	browser.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	 String after_del_value = first_row_text.getText();
 		if(!(after_del_value.equals(initial_value)))
 			Actual_reslt="Deleted";
@@ -165,15 +165,16 @@ public void Commonprocess_edit1(String UN,String PW)
 {
 		UNtext.clear();
 		UNtext.sendKeys(UN);
+		browser.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		PassTf.clear();
 		PassTf.sendKeys(PW, Keys.ENTER);
 		WebDriverWait wait=new WebDriverWait(browser,10);
 		WebElement ele = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='Control Panel']")));
         ele.click();
 		//Click_CP();
-		browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		browser.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Click_Masters();
-		browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		browser.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		click_curr();
 
 }

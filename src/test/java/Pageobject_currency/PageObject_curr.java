@@ -116,7 +116,7 @@ public class PageObject_curr {
 	public void click_save()
 	{
 		click_save_curr.click();
-		browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		browser.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}
 	
 	//method for blank currency name
@@ -148,21 +148,23 @@ public class PageObject_curr {
 	{
 		UNtext.clear();
         UNtext.sendKeys(UN);
+        browser.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         PassTf.clear();
         PassTf.sendKeys(PW, Keys.ENTER);
-		WebDriverWait wait=new WebDriverWait(browser,10);
-		WebElement ele = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='Control Panel']")));
-        ele.click();
-        //Click_CP();
-		browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		Click_CP();
+		browser.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Click_Masters();
-		browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		browser.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		click_curr();
-		browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//browser.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		WebDriverWait wait=new WebDriverWait(browser,20);
+		WebElement ele = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='Create Currency']")));
+        ele.click();
+		
 		create_curr();
-		browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		browser.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		entercurrname(curr_name);
-		browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		browser.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		click_save();
 	}
 }
