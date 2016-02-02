@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Scenario_criticality.Scenario_del">
+        <methods>
+          <include name="test_valid_mul_del" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Scenario_criticality.Scenario_del -->
+      <class name="Scenario_invoice.Scenario_del">
+        <methods>
+          <include name="test_valid_mul_del"/>
+          <include name="test_valid_frstinvoice_del"/>
+          <include name="test_Invalid_delinvoice_blnk"/>
+        </methods>
+      </class> <!-- Scenario_invoice.Scenario_del -->
+      <class name="Scenario_currency.Scenario_del">
+        <methods>
+          <include name="test_valid_frstcurr_del" invocation-numbers="0"/>
+          <include name="test_valid_mul_del" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Scenario_currency.Scenario_del -->
+      <class name="Scenario_criticality.Scenario_create">
+        <methods>
+          <include name="test_Invalidcurr" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Scenario_criticality.Scenario_create -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

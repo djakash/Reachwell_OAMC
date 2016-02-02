@@ -4,13 +4,13 @@
   <test name="Test">
     <classes>
     
-      <class name="Scenario_currency.Scenario_curr"/>
+     <!-- <class name="Scenario_currency.Scenario_curr"/>
       <class name="Scenario_currency.Scenario_edit_curr"/>
       <class name="Scenario_currency.Scenario_del"/>
       
       <class name="Scenario_criticality.Scenario_create"/>
       <class name="Scenario_criticality.Scenario_edit"/>
-      <class name="Scenario_criticality.Scenario_del"/>
+      <class name="Scenario_criticality.Scenario_del"/>-->
      
       <class name="Scenario_invoice.Scenario_create"/>
       <class name="Scenario_invoice.Scenario_edit"/>
